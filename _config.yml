@@ -1,4 +1,9 @@
 github: [metadata]
+
+title: IWAST Guide
+description: Non-technical documentation of IWAST
+
+
 remote_theme: pmarsceill/just-the-docs
 #theme: just-the-docs
 # Enable or disable the site search
