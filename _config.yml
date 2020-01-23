@@ -10,7 +10,7 @@ remote_theme: pmarsceill/just-the-docs
 # Supports true (default) or false
 search_enabled: true
 
-logo: "/assets/images/logo.png"
+logo: "/assets/images/logo-full.png"
 
 # Enable support for hyphenated search words:
 search_tokenizer_separator: /[\s/]+/
