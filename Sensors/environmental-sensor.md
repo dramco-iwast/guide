@@ -8,6 +8,8 @@ has_toc: true
 
 # Environmental Sensor
 
+![](../assets/images/environmental-sensor.png)
+
 
 De luchtkwaliteitssensor bevat een gas sensor die de hoeveelheid vluchtige organische stoffen kan meten. Vuchtige organische stoffen (VOG's) bestaan uit een brede waaier aan organische stoffen die gasvormig (of vluchtig) zijn bij kamertemperatuur. Voorbeelden zijn alcoholen en ketonen. 
 De concentratie gassen wordt gewoonlijk uitgedrukt in parts-per-million (ppm). Als de concentratie 1 ppm is dan wilt dit zeggen dat er per miljoen luchtmoleculen één molecule VOG's aanwezig is.

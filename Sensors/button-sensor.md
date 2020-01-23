@@ -8,6 +8,10 @@ has_toc: true
 
 # Button Sensor
 
+
+![](../assets/images/button-sensor.png)
+
+
 The button sensor contains four buttons.
 Whenever a button is pressed, the motherboard sends a message to the could containing which button was pressed.
 

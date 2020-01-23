@@ -8,6 +8,8 @@ has_toc: true
 
 # Sound Sensor
 
+![](../assets/images/sound-sensor.png)
+
 This sensor measures the sound level.
 You can measure it at fixed time intervals and/or transmit the value when
 the level falls below or rises above a threshold. More information regarding thresholds see [this](../Configuration/what-are-thresholds.html).
