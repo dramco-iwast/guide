@@ -18,4 +18,4 @@ markdown: kramdown
 # Aux links for the upper right navigation
 aux_links:
   "Edit this page on GitHub":
-    - https://github.com/dramco-iwast/Guide
+    - https://github.com/dramco-iwast/guide
