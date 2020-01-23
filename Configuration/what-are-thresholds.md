@@ -20,6 +20,6 @@ In all cases an interrupt is generated when the metric value exceeds `TH` or whe
 
 2. If we are interested when a value enters the area between `TH` and `TL`,  `TL` has a higher value than `TH`.
 
-3. If we want to know when a metric value differs from a specific value, we can define `TH`equal to `TL`.
+3. If we want to know when a metric value crosses a specific value, we can define `TH` equal to `TL`.
 
 ![](../assets/images/tl-th-thresholds.svg)
