@@ -8,6 +8,7 @@ has_toc: true
 
 # Platform
 
-Link: www.dramco.be/projects/iwast/platform
+All sensor data can be viewed at [our platform](www.dramco.be/projects/iwast/platform).
+Login with your `session ID`.
 
 
