@@ -8,3 +8,15 @@
 _site
 Gemfile.lock
 node_modules
+_site/assets/js/search-data.json
+_site/Configuration/configuration.html
+_site/Configuration/what-are-thresholds.html
+_site/Data Manipulation/data-manipulation.html
+_site/Data Manipulation/Excel/opening-data-in-excel.html
+_site/General/general.html
+_site/index.html
+_site/Platform/platform.html
+_site/Sensors/button-sensor.html
+_site/Sensors/environmental-sensor.html
+_site/Sensors/sensors.html
+_site/Sensors/sound-sensor.html
