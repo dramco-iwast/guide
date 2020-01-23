@@ -1,48 +1,66 @@
 {
   
   "0": {
+    "title": "Button Sensor",
+    "content": "Button Sensor .",
+    "url": "http://localhost:4000/Sensors/button-sensor.html",
+    "relUrl": "/Sensors/button-sensor.html"
+  }
+  ,"1": {
     "title": "Configuration",
     "content": "Configuration .",
     "url": "http://localhost:4000/Configuration/configuration.html",
     "relUrl": "/Configuration/configuration.html"
   }
-  ,"1": {
+  ,"2": {
     "title": "Data Manipulation",
     "content": "Data Manipulation .",
     "url": "http://localhost:4000/Data%20Manipulation/data-manipulation.html",
     "relUrl": "/Data%20Manipulation/data-manipulation.html"
   }
-  ,"2": {
+  ,"3": {
+    "title": "Environmental Sensor",
+    "content": "Environmental Sensor .",
+    "url": "http://localhost:4000/Sensors/environmental-sensor.html",
+    "relUrl": "/Sensors/environmental-sensor.html"
+  }
+  ,"4": {
     "title": "General",
     "content": "General .",
     "url": "http://localhost:4000/General/general.html",
     "relUrl": "/General/general.html"
   }
-  ,"3": {
+  ,"5": {
     "title": "Home",
     "content": "",
     "url": "http://localhost:4000/",
     "relUrl": "/"
   }
-  ,"4": {
+  ,"6": {
     "title": "Opening Data in Excel",
     "content": "Follow the steps explained here: .",
     "url": "http://localhost:4000/Data%20Manipulation/Excel/opening-data-in-excel.html",
     "relUrl": "/Data%20Manipulation/Excel/opening-data-in-excel.html"
   }
-  ,"5": {
+  ,"7": {
     "title": "Platform",
     "content": "Platform . Link: www.dramco.be/projects/iwast/platform .",
     "url": "http://localhost:4000/Platform/platform.html",
     "relUrl": "/Platform/platform.html"
   }
-  ,"6": {
+  ,"8": {
     "title": "Sensors",
     "content": "Sensors .",
     "url": "http://localhost:4000/Sensors/sensors.html",
     "relUrl": "/Sensors/sensors.html"
   }
-  ,"7": {
+  ,"9": {
+    "title": "Sound Sensor",
+    "content": "Sound Sensor .",
+    "url": "http://localhost:4000/Sensors/sound-sensor.html",
+    "relUrl": "/Sensors/sound-sensor.html"
+  }
+  ,"10": {
     "title": "What are thresholds?",
     "content": "Some sensors are able to generate an interupt when a certain metric value is exceeded. When enabled, you will receive an update of the metric value if the threshold is exceeded. . We allow to define two thresholds, i.e., threshold low and threshold high. When a metric value exceeds the threshold high (TH) an interrupt is generated. In contrast, only when a metric value goes below threshold low (TL) an interrupt occurs. This allow us to get updates in three distinct manners. . In all cases an interrupt is generated when the metric value exceeds TH or when is falls below TL. When playing with the TH and TL configuration we can manipulate when we want an update. . If we are interested when a value is higher than TH or lower than TL, we define: TH with a higher value as TL. . | If we are interested when a value enters the area between TH and TL, TL has a higher value than TH. . | If we want to know when a metric value crosses a specific value, we can define TH equal to TL. . | .",
     "url": "http://localhost:4000/Configuration/what-are-thresholds.html",
