@@ -9,7 +9,7 @@ has_toc: true
 # Button Sensor
 
 
-![](../assets/images/button-sensor.png)
+![](../assets/images/button-sensor.jpg)
 
 
 The button sensor contains four buttons.
