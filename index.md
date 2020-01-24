@@ -86,17 +86,16 @@ Het “IoT with a soft touch”-systeem bestaat uit
 (1)    Een gateway/toegangspoort. Naar de gateway worden de sensorgegevens draadloos doorgestuurd.
 (2)    10 moederborden, die een batterij en de elektronica die nodig is voor de draadloze communicatie bevatten, waarop telkens sensoren kunnen aangesloten worden
 (3)    Sensoren, ook wel dochterborden genoemd. Het overzicht van de sensoren, hun aantallen en mogelijke toepassingen staat [hier](../Sensors).
-De moederborden maken een draadloze connectie met de gateway. De gegevens van de sensoren, aangesloten op elk moederbord, worden naar de gateway doorgestuurd. De gateway is verbonden met de server, waar de sensorgegevens opgeslaan worden. De data is toegankelijk via een website, zowel via de computer, als via de smartphone.
+De moederborden maken een draadloze connectie met de gateway. De gegevens van de sensoren, aangesloten op elk moederbord, worden naar de gateway doorgestuurd. De gateway is verbonden met de server, waar de sensorgegevens opgeslaan worden. De data is toegankelijk via een website, zowel via de computer, als via de smartphone. Meer informatie kan je [hier](../Platform) terugvinden.
 
 ![](./assets/images/setup.svg)
 
 ### Draadloze communicatietechniek
-In de uitgewerkte bundel komt een gedetailleerde uitleg over draadloze communicatie.
 Zoals hierboven aangehaald heeft de draadloze communicatietechniek een invloed op het energieverbruik van de moederborden. Zoals in elk ontwerpprobleem moet ook bij de keuze van de draadloze communicatietechnologie een evenwicht gezocht worden tussen verschillende vereisten. “There is no such thing as free lunch”: je kan niet alles krijgen in het leven wat je zou willen. Binnen dit project werd gekozen voor de communicatietechnologie LoRa (Long Range). 
 We lijsten hieronder de voor- en nadelen van LoRa-communicatie op:
-+ energiezuinig: de draadloze communicatie kost niet veel energie, waardoor de sensormodules lang op eenzelfde batterij kunnen functioneren zonder dat de batterij moet vervangen worden. Bij optimale condities zou een batterijduur langer dan jaar geen uitzondering zijn.
-+ groot draadloos bereik: de sensoren kunnen tot op grote afstand gegevens naar de gateway doorsturen. In sommige gevallen tot wel 40 km ver! In praktische omstandigheden kan je berichten sturen tot wel enkele kilometers ver.
-- Beperkte hoeveelheid data die kan doorgestuurd worden binnen een vast tijdsinterval. Daardoor is het niet mogelijk geluid of video continu door te sturen. Afhankelijk van het aantal en type sensoren kunnen sensormodules ongeveer om de 5 minuten de sensorwaarden doorsturen.
+- <i class="fas fa-plus"></i> energiezuinig: de draadloze communicatie kost niet veel energie, waardoor de sensormodules lang op eenzelfde batterij kunnen functioneren zonder dat de batterij moet vervangen worden. Bij optimale condities zou een batterijduur langer dan jaar geen uitzondering zijn.
++ <i class="fas fa-plus"></i>groot draadloos bereik: de sensoren kunnen tot op grote afstand gegevens naar de gateway doorsturen. In sommige gevallen tot wel 40 km ver! In praktische omstandigheden kan je berichten sturen tot wel enkele kilometers ver.
+- <i class="fas fa-minus"></i> Beperkte hoeveelheid data die kan doorgestuurd worden binnen een vast tijdsinterval. Daardoor is het niet mogelijk geluid of video continu door te sturen. Afhankelijk van het aantal en type sensoren kunnen sensormodules ongeveer om de 5 minuten de sensorwaarden doorsturen.
 
 
 ## Belangrijke informatie voor leerkrachten
