@@ -24,3 +24,5 @@ markdown: kramdown
 aux_links:
   "Edit this page on GitHub":
     - https://github.com/dramco-iwast/guide
+
+footer_content: "Powered by Dramco."
