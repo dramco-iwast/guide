@@ -8,7 +8,7 @@ has_toc: true
 
 # Environmental Sensor
 
-![](../assets/images/environmental-sensor.png)
+![](../../assets/images/environmental-sensor.png)
 
 
 De luchtkwaliteitssensor bevat een gas sensor die de hoeveelheid vluchtige organische stoffen kan meten. Vuchtige organische stoffen (VOG's) bestaan uit een brede waaier aan organische stoffen die gasvormig (of vluchtig) zijn bij kamertemperatuur. Voorbeelden zijn alcoholen en ketonen. 
