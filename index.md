@@ -72,7 +72,7 @@ Wie veel Youtube kijkt of ooit een groot bestand probeerde te downloaden weet da
 We moeten dus manieren vinden om de datastromen te beperken. Slimme wetenschappers aan universiteiten onderzoeken momenteel hoe we sensoren slimmer kunnen maken, zodat ze minder informatie continu moeten doorsturen. Eén van de pistes die daarbij onderzocht wordt, is ‘machine learning’: we leren apparaten, machines, … aan om zelf op een ‘slimme’ manier te beslissen welke gegevens belangrijk genoeg zijn om door te sturen.
 
 Dat gaat te ver voor dit project. Binnen dit project gebruiken we twee manieren om de datastromen te beperken.
-1.       De eerste manier is door slechts op periodieke intervallen gegevens door te sturen. Zo kunnen we instellen dat een temperatuursensor in een klaslokaal slechts om de 30 sensoren de gedetecteerde temperatuur moet doorsturen.
+1.       De eerste manier is door slechts op periodieke intervallen gegevens door te sturen. Zo kunnen we instellen dat een temperatuursensor in een klaslokaal slechts om de 5 minuten de gedetecteerde temperatuur moet doorsturen.
 2.       De tweede manier is door enkel relevante gegevens door te sturen. Zo kunnen we bv. zeggen dat een geluidsniveaumeter die gebruikt wordt om geluidsoverlast te monitoren, enkel het geluidsniveau moet doorsturen als een bepaalde geluidsniveau drempel overschreden wordt.
 
 #### Vermogenverbruik
@@ -85,7 +85,7 @@ Het vermogenverbruik van een IoT systeem hangt o.a. af van de draadloze communic
 Het “IoT with a soft touch”-systeem bestaat uit
 (1)    Een gateway/toegangspoort. Naar de gateway worden de sensorgegevens draadloos doorgestuurd.
 (2)    10 moederborden, die een batterij en de elektronica die nodig is voor de draadloze communicatie bevatten, waarop telkens sensoren kunnen aangesloten worden
-(3)    Sensoren, ook wel dochterborden genoemd. Het overzicht van de sensoren, hun aantallen en mogelijke toepassingen staat in de tabel hieronder.
+(3)    Sensoren, ook wel dochterborden genoemd. Het overzicht van de sensoren, hun aantallen en mogelijke toepassingen staat [hier](../Sensors).
 De moederborden maken een draadloze connectie met de gateway. De gegevens van de sensoren, aangesloten op elk moederbord, worden naar de gateway doorgestuurd. De gateway is verbonden met de server, waar de sensorgegevens opgeslaan worden. De data is toegankelijk via een website, zowel via de computer, als via de smartphone.
 
 ![](./assets/images/setup.svg)
