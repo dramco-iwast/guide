@@ -8,6 +8,8 @@ nav_order: 1
 
 ![](./assets/images/setup.svg)
 
+## Goal of the Project
+
 ## Backpack
 
 ## Target Audience
