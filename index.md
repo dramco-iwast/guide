@@ -113,11 +113,6 @@ We lijsten hieronder de voor- en nadelen van LoRa-communicatie op:
 	* Web-interface: de web-interface is toegankelijk via een internet browser en laat toe de sensorgegevens weer te geven in een tabel en indien gewenst ook in een grafiek.
 		- De sensorgegevens of een selectie daarvan kunnen ook gedownload worden in csv-formaat voor verdere verwerking, bv. in Python als programmeeroefening of in excel.
 	* In de rugzak wordt een gateway voorzien. Gebruik van de gateway is enkel nodig als de school niet binnen de dekking van The Things Network valt. The Things Network is een open source netwerk voor IoT toepassingen gebaseerd op LoRa. 
-		- Wij gaan de dekking voor jullie na. Het ziet ernaar uit dat Heilige Familie Sint-Niklaas, Sint-Maarten Instituut Aalst en Sint-Jan-Berchmancollege Brussel allen dekking hebben van The Things Network, want ze staan binnen 500 m van een actieve gateway.
-		- Indien nodig stellen we een apparaatje ter beschikking om de dekking en signaalkwaliteit op school ter plaatse te testen.
-		- Indien een gateway aangesloten moet worden, is dit heel eenvoudig. 
-			* De gateway moet enkel met een UTP-kabel met een internetpoort verbonden worden. 
-			* Afhankelijk van de concrete keuze van gateway, kan het nodig zijn de firewall-instellingen aan te passen. Wij voorzien hiervoor instructies.
 	* Als leerlingen een probleemstelling buiten de scope van het huidige project willen onderzoeken of behandelen, kunnen we op ad-hoc basis onderzoeken of het mogelijk en opportuun is hier verder zaken voor te ontwikkelen. Dan ontmoeten wij de leerlingen graag om hun motivatie te peilen en de kwaliteit van hun project in te schatten.
 
 
