@@ -8,7 +8,7 @@ has_toc: true
 
 # Sound Sensor
 
-![](../assets/images/sound-sensor.png)
+![](../assets/images/sound-sensor.jpg)
 
 This sensor measures the sound level.
 You can measure it at fixed time intervals and/or transmit the value when
