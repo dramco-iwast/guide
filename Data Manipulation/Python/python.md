@@ -116,28 +116,28 @@ sensor_data_humidity = sensor_data.query('metric=="Humidity"')
 sensor_data_merged = pd.merge_asof(left=sensor_data_humidity, right=sensor_data_temp, on='timestamp', by="Motherboard_Name", direction="nearest", suffixes=("_humidity", "_temp"))
 print(sensor_data_merged.head(5))
 
-def compute_iaq(row):
+def compute_aqi(row):
 
     dataTemperature = row["value_temp"]*100
     dataHumidity = row["value_humidity"]*1000
 
     if ((dataTemperature) >= 2100):
-        IAQ_temp = ((50*(dataTemperature - 2100)/29)+50)/100
+        AQI_temp = ((50*(dataTemperature - 2100.0)/29)+50)/100
     else:
-        IAQ_temp = ((50*(2100 - dataTemperature)/41)+50)/100
+        AQI_temp = ((50*(2100.0 - dataTemperature)/41)+50)/100
     
 
     if ((dataHumidity) >= 40000):
-        IAQ_hum = ((5*(dataHumidity - 40000)/6)+500)/1000
+        AQI_hum = ((5*(dataHumidity - 40000.0)/6)+500)/1000
     else:
-        IAQ_hum = ((5*(40000 - dataHumidity)/4)+500)/1000
+        AQI_hum = ((5*(40000.0 - dataHumidity)/4)+500)/1000
 
 
-    return IAQ_temp + IAQ_hum
+    return AQI_temp + AQI_hum
 
 
-# Use the function "compute_iaq" to compute the IAQ per row with the definiation above
-sensor_data_merged["IAQ"] = sensor_data_merged.apply(compute_iaq, axis=1)     
+# Use the function "compute_aqi" to compute the AQI per row with the definiation above
+sensor_data_merged["AQI"] = sensor_data_merged.apply(compute_aqi, axis=1)     
 
 
 print(sensor_data_merged.head(5))
@@ -145,6 +145,6 @@ print(sensor_data_merged.head(5))
 
 import seaborn as sns; sns.set()
 import matplotlib.pyplot as plt
-ax = sns.lineplot(x="timestamp", y="IAQ", hue="Motherboard_Name", data=sensor_data_merged)
+ax = sns.lineplot(x="timestamp", y="AQI", hue="Motherboard_Name", data=sensor_data_merged)
 plt.show()
 ```
