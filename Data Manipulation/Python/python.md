@@ -84,3 +84,67 @@ marge_data["value"] = marge_data["value"].astype(float)
 ax = sns.scatterplot(x="timestamp", y="value", hue="Sensor_ID", data=marge_data)
 plt.show()
 ```
+
+
+## Compute Air Quality Index
+```python
+# Import pandas (if no module named pandas -> pip install pandas)
+import pandas as pd 
+import os
+
+# ensure we are in the same path as our Python code
+abspath = os.path.abspath(__file__)
+dname = os.path.dirname(abspath)
+os.chdir(dname)
+
+# Read csv file 
+sensor_data = pd.read_csv("iwast-aqi.csv") 
+
+
+# replacing blank spaces with '_' because programmisng language do not like blank spaces!
+sensor_data.columns =[column.replace(" ", "_") for column in sensor_data.columns] 
+
+  
+sensor_data['timestamp'] =  pd.to_datetime(sensor_data['timestamp'])
+print(sensor_data.head(5))
+
+# get out the temperature and humidity data
+sensor_data_temp = sensor_data.query('metric=="Temperature"')
+sensor_data_humidity = sensor_data.query('metric=="Humidity"') 
+
+# Merge the two dataframes based on their timestamp
+sensor_data_merged = pd.merge_asof(left=sensor_data_humidity, right=sensor_data_temp, on='timestamp', by="Motherboard_Name", direction="nearest", suffixes=("_humidity", "_temp"))
+print(sensor_data_merged.head(5))
+
+def compute_iaq(row):
+
+    dataTemperature = row["value_temp"]*100
+    dataHumidity = row["value_humidity"]*1000
+
+    if ((dataTemperature) >= 2100):
+        IAQ_temp = ((50*(dataTemperature - 2100)/29)+50)/100
+    else:
+        IAQ_temp = ((50*(2100 - dataTemperature)/41)+50)/100
+    
+
+    if ((dataHumidity) >= 40000):
+        IAQ_hum = ((5*(dataHumidity - 40000)/6)+500)/1000
+    else:
+        IAQ_hum = ((5*(40000 - dataHumidity)/4)+500)/1000
+
+
+    return IAQ_temp + IAQ_hum
+
+
+# Use the function "compute_iaq" to compute the IAQ per row with the definiation above
+sensor_data_merged["IAQ"] = sensor_data_merged.apply(compute_iaq, axis=1)     
+
+
+print(sensor_data_merged.head(5))
+
+
+import seaborn as sns; sns.set()
+import matplotlib.pyplot as plt
+ax = sns.lineplot(x="timestamp", y="IAQ", hue="Motherboard_Name", data=sensor_data_merged)
+plt.show()
+```
