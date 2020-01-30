@@ -14,7 +14,7 @@ The environmental sensor measures the following:
 - Temperature (&deg;C)
 - Air pressure (hPa)
 - Relative humidity (%)
-- Air Quality Inde (no unit)
+- Air Quality Index (no unit)
 
 ## Air Quality Index
 ![](../assets/images/air-quality-index.png)

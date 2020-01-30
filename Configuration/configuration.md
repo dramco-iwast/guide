@@ -12,7 +12,7 @@ has_toc: true
 There are two approaches to read sensor data.
 During the configuration, you can opt to use polling and/or interrupt-based communication.
 The former is used when you want to periodically retrieve data from the sensor bord.
-The latter can be used when you are only interessted to know whether the measurement of interest is above or below a preset threshold.
+The latter can be used when you only want to know whether the measurement of interest is above or below a preset threshold.
 
 ### Interrupt-based Communication
 In case of interrupt-based communication, the sensor wakes up the motherboard when it has data.
