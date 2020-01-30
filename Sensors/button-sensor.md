@@ -16,12 +16,12 @@ Whenever a button is pressed, the motherboard sends a message to the could speci
 
 This sensor does not need to be configured.
 
-Let op! In het huidige systeem is geen terugkoppeling voorzien. Het is mogelijk data van sensoren op te vragen en te analyseren, maar signalen uitsturen kan momenteel (nog) niet! De communicatie is dus eenzijdig: de sensormodules kunnen gegevens uitsturen, maar kunnen - op dit moment - nog geen gegevens ontvangen. (Dus bv. een deur openen of een lichtje doen branden als een drukknop ingedrukt wordt, is voorlopig niet mogelijk).
+Pay attention! In the current system, there is no feedback loop! It is possible to poll and analyse data from sensors, but sending signals to the sensor boards is not (yet) possible! It is a one-way communication: sensor boards can send data to the gateway, but cannot receive any signals or data. (So e.g., opening a door or lighting up a LED whenever a push button is pressed is currently impossible!).
 
 ## Applications
-- Stem-applicaties
-	* Bv. groepjes in de klas stemmen over juiste antwoord op vragen van leraar (quasi real-time)
-	* Bv. tevredenheid over het eten in het schoolrestaurant monitoren (niet real-time)
-- Alarm
-	* Bv. in gezondheidszorg: verpleegster oproepen met indicatie hoe dringend
-	* Bv. valdetectie bij ouderen
+- Voting applications
+	* e.g., groups of students vote over the right answer to teacher questions (almost real time)
+	* e.g., monitoring student satisfaction about the food in the school restaurant (not real time)
+- Alarm applications
+	* e.g., in healthcare: calling a nurse with an indication of urgency
+	* e.g., fall detection in the elderly population

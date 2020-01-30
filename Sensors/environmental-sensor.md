@@ -10,28 +10,28 @@ has_toc: true
 
 ![](../assets/images/environmental-sensor.jpg)
 
-De luchtkwaliteitssensor meet volgende gegevens:
-- Temperatuur (&deg;C)
-- Luchtdruk (hPa)
-- Relatieve luchtvochtigheid (%)
-- Maat voor luchtkwaliteit (Air Quality Index) - zonder eenheid
+The environmental sensor measures the following:
+- Temperature (&deg;C)
+- Air pressure (hPa)
+- Relative humidity (%)
+- Air Quality Inde (no unit)
 
 ## Air Quality Index
 ![](../assets/images/air-quality-index.png)
 
 
-De luchtkwaliteitssensor bevat een gas sensor dat de hoeveelheid vluchtige organische stoffen kan meten. Vuchtige organische stoffen (VOG's) bestaan uit een brede waaier aan organische stoffen die gasvormig (of vluchtig) zijn bij kamertemperatuur. Voorbeelden zijn alcoholen en ketonen. 
-De concentratie gassen wordt gewoonlijk uitgedrukt in parts-per-million (ppm). Als de concentratie 1 ppm is dan wilt dit zeggen dat er per miljoen luchtmoleculen één molecule VOG's aanwezig is.
+The environmental sensor contains a gas that can measure the amount of volatile organic compounds. Volatile organic compounds (VOCs) consist of a larga range of organic substances that are gaseous at room temperatures, for example alcohols and ketones.
+The concentration of gasses is usually expressed in parts-per-million (ppm). When the concentration is 1 ppm, it means that 1 molucule of VOCs is present for every million of air molecules.
 
-Vermits de hoeveelheid VOG's in de lucht een rechtstreeks verband hebben met de lokale uitstoot, wordt dit gebruikt om een indicatie van de luchtkwaliteit te verkrijgen. Via een algoritme wordt op basis van de concentratie van deze chemische stoffen, de temperatuur en luchtvochtigheid een indicatie van de luchtkwaliteit berekend. 
+Because the amount of VOCs in the air is directly related to local emissions, the VOC concentration is used as an indication of air quality. 
+The air quality index is calculated based on the concentration of volatile organic compouds, temperature and humidity, based on an algorithm.
 
-
-Toepassingen:
-- Monitoring klaslokalen
-	* Bv. signaleren wanneer het tijd is om klaslokalen te verluchten
-	* Bv. effect van ligging klaslokaal op temperatuur
-	* Bv. effect van initiatieven als dikke truiendag op temperatuur in de klas
-- Monitoring schoolomgeving
-	* Bv. is de lucht in de schoolomgeving schadelijk voor fietsende leerlingen?
-- Monitoring plantenkweek
-	* Bv. temperatuur en luchtvochtigheid monitoren voor optimale plantenverzorging
+## Applications
+- Monitoring classrooms
+	* e.g., signaling when it is time to ventilate the classrooms
+	* e.g., influence of the orientation of classrooms on temperature
+	* e.g., influence of initiatives such as 'dikke truiendag' on classroom temperature
+- Monitoring the school environment
+	* e.g., is the air in the school environment harmful for students who bike to school?
+- Monitoring plant breeding
+	* e.g., determining optimal temperature and humidity to grow a certain plant

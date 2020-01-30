@@ -14,15 +14,14 @@ This sensor measures the sound level.
 You can measure it at fixed time intervals and/or transmit the value when
 the level falls below or rises above a threshold. More information regarding thresholds see [this](../Configuration/what-are-thresholds.html).
 
-Let op! Door de beperkte datastroom is het niet mogelijk geluid te streamen. De sensor geeft op regelmatige tijdsintervallen het gedetecteerde geluidsniveau door of geeft een signaal – naar de cloud – als een ingestelde drempelwaarde overschreden wordt.
+Pay attention! Due to the limited data streams it is not possible to stream sound. The sensor sends the sound level at regular intervals, or when a preset threshold value has been exceeded.
 
-Toepassingen:
-- Monitoren van geluidsniveaus en/of geluidsoverlast
-	* Bv. lawaai speelplaats monitoren
-	* Bv. fuif van jeugdhuis te luid?
-- Activiteitsdetectie:
-	* Bv. is iemand aanwezig in een klaslokaal?
-
+## Applications:
+- Monitoring sound levels and/or noise polution
+	* e.g., monitoring noise at the playground
+	* e.g., is a local party too loud?
+- Activity detection:
+	* e.g., is someone present in a classroom?
 
 ## Technical Information
 The sound sensor contains a number of components:

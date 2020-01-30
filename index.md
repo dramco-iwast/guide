@@ -16,11 +16,11 @@ Deze bundel bevat een inleiding over het internet der dingen en beschrijft het �
 ## Internet-of-Things
 
 
-### What is IoT?
+### Wat is het Internet der Dingen (Internet-of-Things - IoT)?
 Het aantal geconnecteerde apparaten is de laatste 50 jaar exponentieel gegroeid. Zo een geconnecteerd apparaat bestaat uit elektronica die gegevens verzamelt, verwerkt en uitwisselt met andere geconnecteerde apparaten. Die gegevens kunnen heel divers zijn, zoals temperatuur, locatie, spraak, foto’s of video, enz.
 Begin 2000 introduceerde een wetenschapper aan de bekende Amerikaanse universiteit MIT de term ‘het internet der dingen’, in het Engels Internet of Things of (de term die we vanaf nu zullen gebruiken) kortweg IoT. Hiermee doelde hij op een toekomst waarin alle fysische voorwerpen in de wereld geconnecteerd zouden zijn in één groot netwerk. De ambitie van IoT is een ‘slimme wereld’ te maken. Door een grote hoeveelheid ‘domme’ apparaten te connecteren kan een veelheid aan toepassingen met moderne technieken aangepakt worden. Zo kennen we nu al slimme thermostaten, geconnecteerd aan het internet, die weten wanneer jij niet thuis bent. In die situatie zal het stoppen het huis te verwarmen met het doel energie te besparen. Ook sporthorloges, die je hartslag, snelheid en trapfrequentie meten tijdens het fietsen, kunnen je fitheid en vermoeidheid monitoren. Deze toepassingen hebben als doel de levenskwaliteit van de gebruiker te verbeteren.
 
-### IoT Applications
+### IoT Applicaties
 Naast bestaande toepassingen, kan IoT nog op veel andere vlakken ingezet worden. We sommen enkele voorbeelden op:
 
 #### (1)	‘Slimme gezondheidszorg’
@@ -39,7 +39,6 @@ Het is moeilijk grote hoeveelheden elektrische energie op te slaan. Daarom is he
 
 #### (5)	‘Slimme huizen’
 Dit is de meest gekende toepassing van het internet der dingen. Denk maar aan koelkasten die kunnen detecteren dat de boter bijna op is en dit toevoegen aan je boodschappenlijstje en dit doorsturen naar de lokale Colruyt. Zo krijg jij bij je wekelijkse Colruyt-afhaling meteen alle boodschappen die je nodig hebt automatisch mee naar huis. Of denk aan een ‘slimme’ living, waarbij de lichten automatisch gedimd worden en de thermostaat stopt andere kamers te verwarmen wanneer jij een film start op de smart-tv.
-
 
 ### IoT systemen
 IoT is een visie waarbij apparaten geïnterconnecteerd worden. Daar zijn we uiteraard nog lang niet, maar vele mensen denken al na over de vereisten en de mogelijkheden van dergelijke systemen. Op kleinere schaal worden nu al IoT systemen in gebruik genomen. Maar hoe ziet zo’n systeem er nu precies uit?
@@ -79,9 +78,7 @@ Dat gaat te ver voor dit project. Binnen dit project gebruiken we twee manieren 
 De droom is dat IoT toepassingen in de achtergrond verdwijnen en veel handige functies in ons leven (denk maar aan de ‘slimme koelkast’) quasi onopgemerkt uitvoeren. Om dit doel werkelijk te bereiken moeten de sensoren autonoom (zelfstandig) opereren met minimaal menselijk ingrijpen. Dit houdt o.a. in dat de sensoren en de draadloze communicatie slechts heel weinig vermogen mogen verbruiken, zodat een gebruiker niet gedwongen wordt om de twee dagen de batterijen van alle ‘slimme apparaten’ in huis te vervangen.
 Het vermogenverbruik van een IoT systeem hangt o.a. af van de draadloze communicatietechniek en van de hoeveelheid data die doorgestuurd moet worden.
 
-
-
-## The IWAST System
+## Het IWAST Systeem
 Het “IoT with a soft touch”-systeem bestaat uit
 (1)    Een gateway/toegangspoort. Naar de gateway worden de sensorgegevens draadloos doorgestuurd.
 (2)    10 moederborden, die een batterij en de elektronica die nodig is voor de draadloze communicatie bevatten, waarop telkens sensoren kunnen aangesloten worden
