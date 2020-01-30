@@ -85,7 +85,7 @@ Het vermogenverbruik van een IoT systeem hangt o.a. af van de draadloze communic
 Het “IoT with a soft touch”-systeem bestaat uit
 (1)    Een gateway/toegangspoort. Naar de gateway worden de sensorgegevens draadloos doorgestuurd.
 (2)    10 moederborden, die een batterij en de elektronica die nodig is voor de draadloze communicatie bevatten, waarop telkens sensoren kunnen aangesloten worden
-(3)    Sensoren, ook wel dochterborden genoemd. Het overzicht van de sensoren, hun aantallen en mogelijke toepassingen staat [hier](../Sensors/sensors.html).
+(3)    Sensoren, ook wel dochterborden genoemd. Het overzicht van de sensoren, hun aantallen en mogelijke toepassingen staat [hier](./Sensors/sensors.html).
 De moederborden maken een draadloze connectie met de gateway. De gegevens van de sensoren, aangesloten op elk moederbord, worden naar de gateway doorgestuurd. De gateway is verbonden met de server, waar de sensorgegevens opgeslaan worden. De data is toegankelijk via een website, zowel via de computer, als via de smartphone. Meer informatie kan je [hier](../Platform) terugvinden.
 
 ![](./assets/images/setup.svg)
