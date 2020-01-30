@@ -90,6 +90,8 @@ De moederborden maken een draadloze connectie met de gateway. De gegevens van de
 
 ![](./assets/images/setup.svg)
 
+Let op! In het huidige systeem is geen terugkoppeling voorzien. Het is mogelijk data van sensoren op te vragen en te analyseren, maar signalen uitsturen kan momenteel (nog) niet! De communicatie is dus eenzijdig: de sensormodules kunnen gegevens uitsturen, maar kunnen - op dit moment - nog geen gegevens ontvangen. (Dus bv. een deur openen of een lichtje doen branden als een drukknop ingedrukt wordt, is voorlopig niet mogelijk).
+
 ### Draadloze communicatietechniek
 Zoals hierboven aangehaald heeft de draadloze communicatietechniek een invloed op het energieverbruik van de moederborden. Zoals in elk ontwerpprobleem moet ook bij de keuze van de draadloze communicatietechnologie een evenwicht gezocht worden tussen verschillende vereisten. “There is no such thing as free lunch”: je kan niet alles krijgen in het leven wat je zou willen. Binnen dit project werd gekozen voor de communicatietechnologie LoRa (Long Range). 
 We lijsten hieronder de voor- en nadelen van LoRa-communicatie op:
@@ -100,7 +102,7 @@ We lijsten hieronder de voor- en nadelen van LoRa-communicatie op:
 
 ## Belangrijke informatie voor leerkrachten
 
-- Er worden momenteel twee tools ontwikkeld, die zowel in het Engels als het Nederlands beschikbaar zullen zijn.
+- Er werden twee tools ontwikkeld:
 	* Configuratie-tool: De configuratie-tool wordt eenmalig gebruikt om de sensoren te configureren nadat ze aan het moederbord aangesloten zijn.
 		- Configuratie van de sensoren houdt in dat bepaalde parameters ingesteld worden
 			* Bv. voor geluidsniveau-sensor: drempelwaarde voor geluidsoverlast
