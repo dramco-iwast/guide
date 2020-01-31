@@ -113,12 +113,12 @@ Wellicht is hierdoor het volume dat wij ervaren niet recht evenredig met de inte
 Om een geluid te ervaren dat dubbel zo hard klinkt, moet de intensiteit ongeveer met een factor 10 toenemen. 
 Daarom wordt een nieuwe grootheid ingevoerd: de *geluidssterkte* met als eenheid de decibel, afgekort als dB.
 
-De geluidssterkte $L_p$ wordt bepaald als het logaritme van de verhouding van de intensiteit I<sub>p</sub> van het geluid ten opzichte van de gehoorgrens 
+De geluidssterkte L<sub>p</sub> wordt bepaald als het logaritme van de verhouding van de intensiteit I<sub>p</sub> van het geluid ten opzichte van de gehoorgrens 
 I<sub>0</sub> ~ = 10<sup>12</sup> W/m<sup>2</sup>: 
 
-$$latex
+`$
 	L_p = 10\cdot log \bigg(\frac{I_p}{I_0}\bigg) 
-$$
+$`
 
 Van zodra men start met het refereren van een geluidsniveau ten opzichte van de gehoorgrens spreekt men ook van dB<sub>SPL</sub> (Sound Pressure Level). 
 De vergelijking hieronder wordt ook frequent gehanteerd om de geluidssterkte te beschrijven aan de hand van drukken 
