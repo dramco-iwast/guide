@@ -51,7 +51,7 @@ Indien je gedurende een lange tijd aan relatief luide geluiden wordt blootgestel
 In de tabel hieronder is weergegeven gedurende welke periode je maximaal mag blootgesteld worden aan bepaalde geluidsintensiteit zonder dat er gehoorverlies optreedt. 
 
 
-|Tijd per dag         | Geluidsintensiteit (L<sub>Aeq<\sub>) [dB] |
+|Tijd per dag         | Geluidsintensiteit (L<sub>Aeq</sub>) [dB] |
 | ------------- |:-------------:|
 |25 uur               | 80                                  |
 |2 uur 30 minuten     | 90                                  | 
@@ -100,27 +100,29 @@ Hoe hoger de frequentie, hoe hoger de toonhoogte; hoe lager de frequentie, hoe l
 #### Geluidssterkte
 
 De geluidssterkte wordt meestal uitgedrukt in decibel, afgekort als dB. 
-De decibel drukt de geluidssterkte uit aan de hand van de verhouding van intensiteiten I<sub>p<\sub> en I<sub>0<\sub>. 
+
+De decibel drukt de geluidssterkte uit aan de hand van de verhouding van intensiteiten I<sub>p</sub> en I<sub>0</sub>. 
 Intensiteit is gedefinieerd als de energie die door een golf wordt getransporteerd per tijdseenheid door een eenheidsoppervlak loodrecht op de voortplantingsrichting van de golf. 
-De eenheid van intensiteit is watt/meter<sup>2<\sup> (W/m<sup>2<\sup>).
+De eenheid van intensiteit is watt/meter<sup>2</sup> (W/m<sup>2</sup>).
 De intensiteit is evenredig met het kwadraat van de amplitude van de golf. 
 
-Het menselijk oor is in staat om geluiden te horen met een intensiteit I<sub>p<\sub> tussen 10<sup>-12<\sup> W/m<sup>2<\sup> (gehoorgrens) en 1 W/m<sup>2<\sup> (pijngrens). Het is vanzelfsprekend dat de intensiteit hoger kan zijn dan de pijngrens, maar vervolgens pijn aan de oren veroorzaakt. 
-Het intensiteitsbereik tussen de gehoorgrens en de pijngrens dat mensen kunnen waarnemen is ongelooflijk groot (10<sup>-12<\sup>). 
+Het menselijk oor is in staat om geluiden te horen met een intensiteit I<sub>p</sub> tussen 10<sup>-12</sup> W/m<sup>2</sup> (gehoorgrens) en 1 W/m<sup>2</sup> (pijngrens). Het is vanzelfsprekend dat de intensiteit hoger kan zijn dan de pijngrens, maar vervolgens pijn aan de oren veroorzaakt. 
+Het intensiteitsbereik tussen de gehoorgrens en de pijngrens dat mensen kunnen waarnemen is ongelooflijk groot (10<sup>-12</sup>). 
+
 Wellicht is hierdoor het volume dat wij ervaren niet recht evenredig met de intensiteit. 
 Om een geluid te ervaren dat dubbel zo hard klinkt, moet de intensiteit ongeveer met een factor 10 toenemen. 
 Daarom wordt een nieuwe grootheid ingevoerd: de *geluidssterkte* met als eenheid de decibel, afgekort als dB.
 
-De geluidssterkte $L_p$ wordt bepaald als het logaritme van de verhouding van de intensiteit I<sub>p<\sub> van het geluid ten opzichte van de gehoorgrens 
-I<sub>0<\sub> ~ = 10<sup>12<\sup> W/m<sup>2<\sup>: 
+De geluidssterkte $L_p$ wordt bepaald als het logaritme van de verhouding van de intensiteit I<sub>p</sub> van het geluid ten opzichte van de gehoorgrens 
+I<sub>0</sub> ~ = 10<sup>12</sup> W/m<sup>2</sup>: 
 
 $$latex
 	L_p = 10\cdot log \bigg(\frac{I_p}{I_0}\bigg) 
 $$
 
-Van zodra men start met het refereren van een geluidsniveau ten opzichte van de gehoorgrens spreekt men ook van dB<sub>SPL<\sub> (Sound Pressure Level). 
+Van zodra men start met het refereren van een geluidsniveau ten opzichte van de gehoorgrens spreekt men ook van dB<sub>SPL</sub> (Sound Pressure Level). 
 De vergelijking hieronder wordt ook frequent gehanteerd om de geluidssterkte te beschrijven aan de hand van drukken 
-waarbij p<sub>0<\sub> ook wel de referentiedruk wordt genoemd en 20 $\mu$Pa bedraagt.
+waarbij p<sub>0</sub> ook wel de referentiedruk wordt genoemd en 20 $\mu$Pa bedraagt.
 
 \begin{equation}\label{eq:dbp}
 L_p = 20 \cdot log \bigg(\frac{p}{p_0}\bigg)
