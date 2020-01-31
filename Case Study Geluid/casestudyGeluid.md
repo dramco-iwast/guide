@@ -22,7 +22,6 @@ Geluiden zijn ook vaak indicatoren van problemen, bijvoorbeeld wanneer er geschr
 Het continu of sporadisch monitoren van geluid was tot nog toe omslachtig: klassieke microfoons zijn relatief duur en verbruiken veel energie. Daardoor konden deze enkel kortstondig werken op batterij voeding.  In deze situatie kwam verandering door de opkomst van kleine en laag vermogen technologie voor microfoons, verwerkingsmodules, en draadloze connectiviteit. Op basis van deze technologische componenten kunnen autonome en slimme oplossingen gebouwd worden. 
 
 Internet-of-Things (IoT) technologie kan helpen om ruimtes te creëren waar het goed toeven is voor bewoners en bezoekers, en waar zij zich veilig voelen. 
-% Naast parken en pleinen kan dit welbevinden ook heel wenselijk zijn in wachtruimtes, bibliotheken, bureau omgevingen, winkels, ondergrondse parkings, magazijnen, op openbaar vervoer,…  
 Sensoren, verbonden aan een netwerk, kunnen op een elegante manier omstandigheden monitoren en helpen bij het realiseren van plaatsen van rust en het verhogen van (het gevoel van) veiligheid. 
 De sensoren moeten eenvoudig te installeren zijn en moeten een aantal jaar kunnen functioneren zonder netaansluiting.
 In vergelijking met camera-bewaking is deze monitoring op basis van geluid niet-intrusief en kan de verwerking makkelijk gebeuren met respect voor privacy. 
@@ -51,18 +50,20 @@ Indien je gedurende een lange tijd aan relatief luide geluiden wordt blootgestel
 
 In de tabel hieronder is weergegeven gedurende welke periode je maximaal mag blootgesteld worden aan bepaalde geluidsintensiteit zonder dat er gehoorverlies optreedt. 
 
-Tijd per dag         & Geluidsintensiteit ($L_{Aeq}$}) [dB] \\ \hline
-25 uur               & 80                                  \\
-2 uur 30 minuten     & 90                                  \\ 
-15 minuten           & 100                                 \\ 
-1 minuut 30 seconden & 110                                 \\ 
-9 seconden           & 120                                 \\ 
+
+|Tijd per dag         | Geluidsintensiteit ($L_{Aeq}$}) [dB] |
+| ------------- |:-------------:|
+|25 uur               | 80                                  |
+|2 uur 30 minuten     | 90                                  | 
+|15 minuten           | 100                                 | 
+|1 minuut 30 seconden | 110                                 |
+|9 seconden           | 120                                 |
 
 ### Hoe geluidsoverlast aanpakken?
 
-Geluidsoverlast kan in zekere zin opgelost worden door enerzijds de \emph{geluidsbron} aan te pakken. Voorbeelden zijn het volume op feestjes reduceren, het wegdek vernieuwen met fluisterbeton of industri\"ele machines vervangen door stillere varianten. 
+Geluidsoverlast kan in zekere zin opgelost worden door enerzijds de *geluidsbron* aan te pakken. Voorbeelden zijn het volume op feestjes reduceren, het wegdek vernieuwen met fluisterbeton of industri\"ele machines vervangen door stillere varianten. 
 
-Anderzijds kan ook de \emph{geluidsontvanger} zich wapenen tegen de geluidsoverlast door oordoppen te dragen, geluidsbermen te installeren of voldoende tijd te laten tussen blootstelling aan hoge intensiteiten. Met behulp van een decibel meter is het mogelijk om de intensiteit van geluiden op te meten om zo een uitspraak te kunnen doen over de schadelijkheid ervan. 
+Anderzijds kan ook de *geluidsontvanger* zich wapenen tegen de geluidsoverlast door oordoppen te dragen, geluidsbermen te installeren of voldoende tijd te laten tussen blootstelling aan hoge intensiteiten. Met behulp van een decibel meter is het mogelijk om de intensiteit van geluiden op te meten om zo een uitspraak te kunnen doen over de schadelijkheid ervan. 
 Hieronder wordt er dieper ingegaan op de fysische eigenschappen van geluid, waarbij ook de betekenis van de decibel wordt toegelicht. 
 
 ## Wat is geluid?
@@ -74,13 +75,8 @@ De trilling zal zich vervolgens als een golf door de lucht verplaatsen naar de o
 Merk hierbij wel op dat de lucht ter plaatse blijft en dat het enkel de trilling is die wordt doorgegeven aan naburige luchtmoleculen.
 De situatie is grafisch voorgesteld in onderstaande figuur. 
 
-% \gewonefiguur{height=7cm}{Figure_15_05}
-\begin{minipage}{.5\linewidth}
-\figuurmetlabel[]{height=4.5cm}{Figure_15_05}{Door het bewegen van het membraan ontstaat een trilling van luchtmoleculen.}
-\end{minipage}
-\begin{minipage}{.5\linewidth}
-\figuurmetlabel[]{height=4.5cm}{Figure_15_06}{De trilling van de luchtmoleculen resulteert in drukverschillen in de ruimte, zoals weergegeven in de grafiek.}
-\end{minipage}
+![Door het bewegen van het membraan ontstaat een trilling van luchtmoleculen.](Figure_15_05.jpg)
+![De trilling van de luchtmoleculen resulteert in drukverschillen in de ruimte, zoals weergegeven in de grafiek.](Figure_15_06.jpg)
 
 Door de trilling van de luchtmoleculen ontstaan drukverschillen: op sommige plaatsen zijn er relatief veel luchtmoleculen bij elkaar, daar is er een hogere \textquoteleft luchtdruk\textquoteright; op andere plaatsen zijn er relatief weinig luchtmoleculen bij elkaar, daar is er een lagere \textquoteleft luchtdruk\textquoteright.
 
@@ -91,13 +87,13 @@ waargenomen worden.
 
 ### Fysische eigenschappen van geluid
 
-Bij geluid zijn er twee aspecten die voor de mens onmoddeljk duidelijk zijn: \emph{volume} en \emph{toonhoogte}.
-Dit zijn perceptieve aspecten, ze hebben verband met hoe een luisteraar het geluid \emph{ervaart}. We noemen het daarom \emph{subjectieve} gewaarwordingen.
-Ze komen beiden overeen met \emph{fysisch} meetbare grootheden.
+Bij geluid zijn er twee aspecten die voor de mens onmoddeljk duidelijk zijn: *volume* en *toonhoogte*.
+Dit zijn perceptieve aspecten, ze hebben verband met hoe een luisteraar het geluid *ervaart*. We noemen het daarom *subjectieve* gewaarwordingen.
+Ze komen beiden overeen met *fysisch* meetbare grootheden.
 
-\emph{Volume} is gerelateerd aan \emph{geluidsintensiteit}, dit is de hoeveelheid energie die per tijdseenheid door een eenheidsoppervlak gaat. De geluidsintensiteit wordt meestal uitgedrukt aan de hand van de geluidssterkte in decibel/dB.
+*Volume* is gerelateerd aan *geluidsintensiteit*, dit is de hoeveelheid energie die per tijdseenheid door een eenheidsoppervlak gaat. De geluidsintensiteit wordt meestal uitgedrukt aan de hand van de geluidssterkte in decibel/dB.
 
-De \emph{toonhoogte} geeft aan of een geluid hoog of laag klinkt. De fysische grootheid die de toonhoogte bepaalt is de \emph{frequentie}. Hoe hoger de frequentie, hoe hoger de toonhoogte; hoe lager de frequentie, hoe lager de toonhoogte.
+De *toonhoogte* geeft aan of een geluid hoog of laag klinkt. De fysische grootheid die de toonhoogte bepaalt is de *frequentie*. Hoe hoger de frequentie, hoe hoger de toonhoogte; hoe lager de frequentie, hoe lager de toonhoogte.
 
 #### Geluidssterkte
 
@@ -106,7 +102,7 @@ De eenheid van intensiteit is watt/meter$^2$ ($W/m^2$).
 De intensiteit is evenredig met het kwadraat van de amplitude van de golf. 
 
 Het menselijk oor is in staat om geluiden te horen met een intensiteit $I_p$ tussen $10^{-12}$ $\frac{\text{W}}{\text{m}^2}$ (gehoorgrens) en 1 $\frac{\text{W}}{\text{m}^2}$ (pijngrens). Het is vanzelfsprekend dat de intensiteit hoger kan zijn dan de pijngrens, maar vervolgens pijn aan de oren veroorzaakt. 
-Het intensiteitsbereik tussen de gehoorgrens en de pijngrens dat mensen kunnen waarnemen is ongelooflijk groot ($10^{12}$). Wellicht is hierdoor het volume dat wij ervaren niet recht evenredig met de intensiteit. Om een geluid te ervaren dat dubbel zo hard klinkt, moet de intensiteit ongeveer met een factor $10$ toenemen. Daarom wordt een nieuwe grootheid ingevoerd: de \emph{geluidssterkte} met als eenheid de decibel, afgekort als $dB$.
+Het intensiteitsbereik tussen de gehoorgrens en de pijngrens dat mensen kunnen waarnemen is ongelooflijk groot ($10^{12}$). Wellicht is hierdoor het volume dat wij ervaren niet recht evenredig met de intensiteit. Om een geluid te ervaren dat dubbel zo hard klinkt, moet de intensiteit ongeveer met een factor $10$ toenemen. Daarom wordt een nieuwe grootheid ingevoerd: de *geluidssterkte* met als eenheid de decibel, afgekort als $dB$.
 
 De geluidssterkte $L_p$ wordt bepaald als het logaritme van de verhouding van de intensiteit $I_p$ van het geluid ten opzichte van de gehoorgrens $I_0 ~ = ~ 10^{-12} ~\frac{\text{W}}{\text{m}^2}$: 
 
@@ -146,7 +142,7 @@ dB\textsubscript{SPL} & Geluidsbron & Intensiteit ($\textstyle\tfrac{\text{W}}{\
 
 #### Toonhoogte
 
-De \emph{toonhoogte} van een geluid wordt bepaald door de frequentiecomponenten die aanwezig zijn in een bepaald geluid. Wanneer voornamelijk componenten met een hoge frequentie aanwezig zijn, dan zal het geluid als een hoge toon worden ervaren en vice versa. 
+De *toonhoogte* van een geluid wordt bepaald door de frequentiecomponenten die aanwezig zijn in een bepaald geluid. Wanneer voornamelijk componenten met een hoge frequentie aanwezig zijn, dan zal het geluid als een hoge toon worden ervaren en vice versa. 
 
 \gewonefiguur{width=\linewidth}{sinusTrilling}
 
@@ -158,10 +154,10 @@ y(t) = A \sin(2\pi f t).
 
 \begin{itemize}
 	\item Links is de trilling voorgesteld in het tijdsdomein: de uitwijking in functie van de tijd is een sinuso\"idaal verloop. 
-	\item Rechts is de trilling voorgesteld in het frequentiedomein. Deze voorstelling noemen we dan ook het \emph{frequentiespectrum}. De frequentie van een trilling is gedefin\"ieerd als het aantal trillingen per seconde. De eenheid is $1/s$ of Hertz ($Hz$). Hoe we frequentiespectrum  bepalen, is voer voor universiteitsstudenten.
+	\item Rechts is de trilling voorgesteld in het frequentiedomein. Deze voorstelling noemen we dan ook het *frequentiespectrum*. De frequentie van een trilling is gedefin\"ieerd als het aantal trillingen per seconde. De eenheid is $1/s$ of Hertz ($Hz$). Hoe we frequentiespectrum  bepalen, is voer voor universiteitsstudenten.
 \end{itemize}
 
-Deze trilling is een \emph{zuivere toon}: er is slechts 1 frequentie aanwezig. In het frequentiespectrum zien we maar 1 lijn. Het is het geluid dat je hoort als je een stemvork aanslaat.
+Deze trilling is een *zuivere toon*: er is slechts 1 frequentie aanwezig. In het frequentiespectrum zien we maar 1 lijn. Het is het geluid dat je hoort als je een stemvork aanslaat.
 
 Naast zuivere tonen bestaan ook samengestelde tonen. De meeste geluiden die je kent, zijn samengestelde tonen, waarin meerdere frequenties voorkomen. Hieronder zie je een voorbeeld.
 
@@ -202,14 +198,14 @@ Bepaal zelf aan de hand van de grafiek voor welke frequenties het oor het meest 
 \oplos{TODO}
 
 ### Verzwakking van geluid
-Geluid ondergaat door heel wat factoren een \emph{verzwakking} of \emph{attenuatie}. Temperatuur, luchtvochtigheid, afstand, de luchtdichtheid en de frequentie van het geluid spelen hierbij allemaal een rol.
+Geluid ondergaat door heel wat factoren een *verzwakking* of *attenuatie*. Temperatuur, luchtvochtigheid, afstand, de luchtdichtheid en de frequentie van het geluid spelen hierbij allemaal een rol.
 
 We bekijken eerst verzwakking van geluiden in de vrije ruimte. Daarmee bedoelen we een ruimte waarin geen objecten staan. Dit is quasi onmogelijk in de praktijk. Dit is dus slechts een theoretisch concept.
 Geluidsverzwakking met toenemende afstand tot de geluidsbron in de vrije ruimte heeft twee onderliggende oorzaken.
 Ten eerste is lucht een elastisch medium en zal dit ervoor zorgen dat er verzwakking optreedt. Wanneer geluidsgolven door lucht propageren, worden luchtmoleculen versneld. 
 Die versnelling zorgt onvermijdelijk voor wrijving. 
 Wrijving is een vorm van energieverlies, wat leidt tot een verzwakt geluid.
-Ten tweede is er het effect van \emph{divergentie}. Dat betekent dat het vermogen van een geluidsgolf uitgespreid wordt over een groter oppervlak naarmate deze geluidsgolf zich verder van de bron bevindt. In Vergelijking~\ref{eq:div} wordt de verzwakking van de amplitude van een geluidsgolf berekend in functie van de afstand.
+Ten tweede is er het effect van *divergentie*. Dat betekent dat het vermogen van een geluidsgolf uitgespreid wordt over een groter oppervlak naarmate deze geluidsgolf zich verder van de bron bevindt. In Vergelijking~\ref{eq:div} wordt de verzwakking van de amplitude van een geluidsgolf berekend in functie van de afstand.
 \vspace{5mm}
 
 \begin{equation}\label{eq:div}
