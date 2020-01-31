@@ -152,13 +152,11 @@ De *toonhoogte* van een geluid wordt bepaald door de frequentiecomponenten die a
 
 ![](sinusTrilling.png)
 
-
 De trilling hierboven (links) is een harmonische trilling, die als een sinusvormig signaal voorgesteld wordt en met als functievoorschrift 
 
 \begin{equation*}
 y(t) = A \sin(2\pi f t).
 \end{equation*}
-
 
 - Links is de trilling voorgesteld in het tijdsdomein: de uitwijking in functie van de tijd is een sinuso\"idaal verloop. 
 - Rechts is de trilling voorgesteld in het frequentiedomein. 
@@ -272,8 +270,10 @@ Microfonen onderscheiden zich van elkaar op basis van een aantal eigenschappen, 
 
 ### Hoe werkt onze microfoon?
 
-De microfoon dit in dit project gebruikt wordt, is gebaseerd op het pi\"ezo-elektrisch effect en genereert een elektrisch equivalent van een geluidsgolf. 
-\todo{piezo-elektrisch effect uitleggen?}
+De microfoon dit in dit project gebruikt wordt, is gebaseerd op het piëzo-elektrisch effect en genereert een elektrisch equivalent van een geluidsgolf. 
+Het piëzo-elektrisch effect is het verschijnsel dat kristallen van bepaalde materialen onder invloed van druk, bijvoorbeeld door buiging, een elektrische spanning produceren en andersom: 
+er zijn materialen die vervormen als er een elektrische spanning op wordt aangelegd. 
+Geluid is een drukgolf en kan dan ook een elektrische spanning produceren.
 
 De frequentie van het geluid zal overeenkomen met de frequentie van het elektrische signaal. De amplitude van de geluidsgolf zal evenredig zijn met de amplitude van het elektrische signaal. De signalen afkomstig van de microfoon zijn soms slechts enkele millivolt groot en bevatten ruissignalen die niet gunstig zijn voor de meting. Om het geluid en de geluidssterkte goed te kunnen inschatten, zal het elektrisch signaal met behulp van een versterker moeten versterkt worden. Een signaal versterken betekent dat we de amplitude doen toenemen, bijvoorbeeld door het hele signaal met een factor $100$ te vermenigvuldigen. 
 
