@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Configuration
-has_children: true
-nav_order: 3
+title: Case study geluid
+has_children: false
+nav_order: 2
 has_toc: true
 ---
 
