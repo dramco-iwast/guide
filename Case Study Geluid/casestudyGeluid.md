@@ -204,7 +204,7 @@ Uit deze grafiek kan men afleiden dat zowel de lage bastonen als de hoge piepton
 \todo{Beter uitleggen}
 -->
 
-![](dBA.pdf) Vorm van een A-filter
+![](dBA.PNG) Vorm van een A-filter
 
 
 \begin{oef}
@@ -249,8 +249,10 @@ Als vuistregel hanteert men dat de intensiteit van het opgevangen geluid met 6 d
 
 dB-meters worden tegenwoordig vaak gebruikt op fuiven, concerten en festivals. Dergelijke evenementen zijn sterk onderworpen aan heel wat regels vervat in de milieuwetgeving. Deze regels trachten zowel buren als aanwezigen te beschermen tegen gezondheidsschade.
 
-Geluid afkomstig van muziekactiviteiten kan opgedeeld worden in drie categorieën die bepaald worden aan de hand van het equivalent continu geluidsniveau (L$_{Aeq}$). Dit is het constante geluidsdrukniveau dat gedurende een tijdsduur $T$ dezelfde energie levert als de werkelijk gemeten geluidsdrukniveaus gedurende die tijdsduur $T$. Dit kan bijvoorbeeld zeggen dat het geluid over een periode van 15 minuten gemeten wordt en het gemiddelde lager moet zijn dan 95 dB. De 3 categorieën met bijhorende voorwaarden zijn hieronder weergegeven.
-\vspace{5mm}
+Geluid afkomstig van muziekactiviteiten kan opgedeeld worden in drie categorieën die bepaald worden aan de hand van het equivalent continu geluidsniveau (L<sub>Aeq</sub>). 
+Dit is het constante geluidsdrukniveau dat gedurende een tijdsduur T dezelfde energie levert als de werkelijk gemeten geluidsdrukniveaus gedurende die tijdsduur T. 
+Dit kan bijvoorbeeld zeggen dat het geluid over een periode van 15 minuten gemeten wordt en het gemiddelde lager moet zijn dan 95 dB. 
+De 3 categorieën met bijhorende voorwaarden zijn hieronder weergegeven.
 
 - **Categorie 1**: geluidsniveau <85 dB(A)L<sub>Aeq, 15min</sub>
 - **Categorie 2**: geluidsniveau $>$ 85 dB(A)L<sub>Aeq, 15min</sub> en >= 95 dB(A)L<sub>Aeq, 15min</sub>
@@ -265,8 +267,8 @@ Het is het Schepencollege en de Burgemeester van de betreffende gemeente die hie
 ### Geluid opmeten met een microfoon
 
 Geluid kan opgemeten worden met een microfoon die geluidsgolven omzet in elektrische signalen. Het zijn als het ware druksensoren die snel variërende drukken kunnen detecteren aan de hand van een diafragma dat meetrilt met de geluidsgolf. De beweging van het diafragma kan op basis van verschillende effecten worden omgezet tot elektrische signalen. 
-Microfonen onderscheiden zich van elkaar op basis van een aantal eigenschappen, zoals grootte, bandbreedte (welk frequentiebereik kan je opmeten?), directionaliteit (is welke richtingen kan je geluid opmeten?), sensitiviteit (hoe gevoelig is de microfoon voor zachte geluiden?) en dynamische eigenschappen.
-\todo{dynamische eigenschappen nog uitleggen!}
+Microfonen onderscheiden zich van elkaar op basis van een aantal eigenschappen, zoals grootte, bandbreedte (welk frequentiebereik kan je opmeten?), 
+directionaliteit (is welke richtingen kan je geluid opmeten?), sensitiviteit (hoe gevoelig is de microfoon voor zachte geluiden?) en dynamische eigenschappen.
 
 ### Hoe werkt onze microfoon?
 
@@ -284,16 +286,16 @@ De ruis bevat niet noodzakelijk dezelfde frequentiecomponenten als het nuttige s
 Daarom kan je filters gebruiken. 
 Wat een filter precies is, valt buiten het bereik van deze bundel, maar je kan een filter vergelijken met de filters die je kent, bv. een koffiefilter.
 Een koffiefilter laat enkel de nuttige componenten door: enkel de koffie zelf, maar geen koffiegruis.
-De filters waarover we hier spreken en doet hopelijk hetzelfde: de nuttige componenten, het geluid zelf, wordt doorgelaten. Andere stoorsignalen, ruis met hogere en lagere frequenties dan geluid dat mensen kunnen waarnemen, wordt verwijderd.
+De filters waarover we hier spreken doet hopelijk hetzelfde: de nuttige componenten, het geluid zelf, worden doorgelaten. 
+Andere stoorsignalen, ruis met hogere en lagere frequenties dan geluid dat mensen kunnen waarnemen, wordt verwijderd.
 
-Links op Figuur \ref{fig:output} ziet u het meest gunstige geval van de elektrische representatie van een geluidsgolf van 2 kHz. Hierbij is geen hoog- of laagfrequente ruis zichtbaar in tegenstelling tot de figuur aan de rechterzijde. In de figuur rechts is laagfrequente ruis aanwezig: dit is de trage fluctuatie in de figuur. Er is ook hoogfrequente ruis aanwezig: dit zijn de snelle fluctuaties in het signaal. Door die snelle fluctuaties kleurt de grafiek rechts donkerder dan de grafiek links. 
+Links ziet u het meest gunstige geval van de elektrische representatie van een geluidsgolf van 2 kHz. 
+Hierbij is geen hoog- of laagfrequente ruis zichtbaar in tegenstelling tot de figuur aan de rechterzijde. 
+In de figuur rechts is laagfrequente ruis aanwezig: dit is de trage fluctuatie in de figuur. 
+Er is ook hoogfrequente ruis aanwezig: dit zijn de snelle fluctuaties in het signaal. 
+Door die snelle fluctuaties kleurt de grafiek rechts donkerder dan de grafiek links. 
 
-\begin{minipage}{.5\linewidth}
-\gewonefiguur{width=\linewidth}{outputMicOptimal.pdf}
-\end{minipage}
-\begin{minipage}{.5\linewidth}
-\gewonefiguur{width=\linewidth}{outputmic.pdf}
-\end{minipage}
+![](outputMicOptimal.PNG) ![](outputmic.PNG)
 
 
 \begin{oef}
@@ -310,7 +312,7 @@ Bovendien zijn die hele lage en hele hoge frequenties vaak niet nuttig voor de m
 In dit project zal men op 2 manieren de geluidsintensiteit kunnen opvragen. Enerzijds zal het mogelijk zijn om aan de hand van polling de geluidsintensiteit op te vragen. Polling betekent dat het geluid gemeten wordt op het moment dat het gevraagd wordt. Anderzijds is het ook mogelijk om een drempelwaarde in te stellen vanaf dewelke er een melding moet komen dat deze drempelwaarde overschreden wordt. 
 
 
-## Toepassing: geluid meten op een concert
+<!---## Toepassing: geluid meten op een concert
 
 ### Theoretische basis
 
@@ -335,3 +337,4 @@ Uitleg web-tool en installatie microfoon(s)
 \subsubsection{IWAST data analyseren om geluidsoverlast vast te stellen}
 
 Misschien zelf data opnemen, om als illustratie te gebruiken; ter beschikking stellen zodat school ook kan analyseren
+-->
