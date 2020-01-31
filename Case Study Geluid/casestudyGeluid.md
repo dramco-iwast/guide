@@ -2,14 +2,14 @@
 layout: default
 title: Case study geluid
 has_children: false
-nav_order: 2
+nav_order: 6
 has_toc: true
 ---
 
 # Case study: geluid
 
 
-##section{Motivatie}
+## Motivatie
 
 
 ### Geluid als indicator van (geen) rust
