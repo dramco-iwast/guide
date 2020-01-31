@@ -255,8 +255,8 @@ Dit kan bijvoorbeeld zeggen dat het geluid over een periode van 15 minuten gemet
 De 3 categorieën met bijhorende voorwaarden zijn hieronder weergegeven.
 
 - **Categorie 1**: geluidsniveau <85 dB(A)L<sub>Aeq, 15min</sub>
-- **Categorie 2**: geluidsniveau $>$ 85 dB(A)L<sub>Aeq, 15min</sub> en >= 95 dB(A)L<sub>Aeq, 15min</sub>
-- **Categorie 3**: geluidsniveau $>$ 95 dB(A)L<sub>Aeq, 15min</sub> en >= 100 dB(A)L<sub>Aeq, 60min</sub>
+- **Categorie 2**: geluidsniveau > 85 dB(A)L<sub>Aeq, 15min</sub> en >= 95 dB(A)L<sub>Aeq, 15min</sub>
+- **Categorie 3**: geluidsniveau > 95 dB(A)L<sub>Aeq, 15min</sub> en >= 100 dB(A)L<sub>Aeq, 60min</sub>
 
 In theorie kan voor elke muziekactiviteit gekozen worden welke categorie van toepassing is. 
 In de praktijk zijn de organisatoren echter vaak ook beperkt tot een maximale categorie omwille van omgevingsfactoren zoals bijvoorbeeld de buren. 
@@ -309,7 +309,10 @@ Hierbij wordt geen filter tussen 20 Hz en 20 kHz toegepast.
 Dit komt doordat mensen in de praktijk niet het hele frequentiebereik meer kunnen waarnemen, doordat je oren in de loop van je leven verslechteren. 
 Bovendien zijn die hele lage en hele hoge frequenties vaak niet nuttig voor de meeste toepassingen.
 
-In dit project zal men op 2 manieren de geluidsintensiteit kunnen opvragen. Enerzijds zal het mogelijk zijn om aan de hand van polling de geluidsintensiteit op te vragen. Polling betekent dat het geluid gemeten wordt op het moment dat het gevraagd wordt. Anderzijds is het ook mogelijk om een drempelwaarde in te stellen vanaf dewelke er een melding moet komen dat deze drempelwaarde overschreden wordt. 
+In dit project zal men op 2 manieren de geluidsintensiteit kunnen opvragen. 
+Enerzijds zal het mogelijk zijn om aan de hand van polling de geluidsintensiteit op te vragen. 
+[Polling](../Configuration/what-is-polling.html) betekent dat het geluid gemeten wordt op het moment dat het gevraagd wordt. 
+Anderzijds is het ook mogelijk om een [drempelwaarde](../Configuration/what-are-thresholds.html) in te stellen vanaf dewelke er een melding moet komen dat deze drempelwaarde overschreden wordt. 
 
 
 <!---## Toepassing: geluid meten op een concert
