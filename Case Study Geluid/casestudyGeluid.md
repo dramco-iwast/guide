@@ -150,7 +150,8 @@ In de tabel hieronder zijn enkele typische geluidssterktes voor verschillende ac
 
 De *toonhoogte* van een geluid wordt bepaald door de frequentiecomponenten die aanwezig zijn in een bepaald geluid. Wanneer voornamelijk componenten met een hoge frequentie aanwezig zijn, dan zal het geluid als een hoge toon worden ervaren en vice versa. 
 
-\gewonefiguur{width=\linewidth}{sinusTrilling}
+![](sinusTrilling.png)
+
 
 De trilling hierboven (links) is een harmonische trilling, die als een sinusvormig signaal voorgesteld wordt en met als functievoorschrift 
 
@@ -158,16 +159,18 @@ De trilling hierboven (links) is een harmonische trilling, die als een sinusvorm
 y(t) = A \sin(2\pi f t).
 \end{equation*}
 
-\begin{itemize}
-	\item Links is de trilling voorgesteld in het tijdsdomein: de uitwijking in functie van de tijd is een sinuso\"idaal verloop. 
-	\item Rechts is de trilling voorgesteld in het frequentiedomein. Deze voorstelling noemen we dan ook het *frequentiespectrum*. De frequentie van een trilling is gedefin\"ieerd als het aantal trillingen per seconde. De eenheid is $1/s$ of Hertz ($Hz$). Hoe we frequentiespectrum  bepalen, is voer voor universiteitsstudenten.
-\end{itemize}
+
+- Links is de trilling voorgesteld in het tijdsdomein: de uitwijking in functie van de tijd is een sinuso\"idaal verloop. 
+- Rechts is de trilling voorgesteld in het frequentiedomein. 
+Deze voorstelling noemen we dan ook het *frequentiespectrum*. 
+De frequentie van een trilling is gedefinieerd als het aantal trillingen per seconde. 
+De eenheid is 1/s of Hertz (Hz). Hoe we frequentiespectrum  bepalen, is voer voor universiteitsstudenten.
 
 Deze trilling is een *zuivere toon*: er is slechts 1 frequentie aanwezig. In het frequentiespectrum zien we maar 1 lijn. Het is het geluid dat je hoort als je een stemvork aanslaat.
 
 Naast zuivere tonen bestaan ook samengestelde tonen. De meeste geluiden die je kent, zijn samengestelde tonen, waarin meerdere frequenties voorkomen. Hieronder zie je een voorbeeld.
 
-\gewonefiguur{width=\linewidth}{samengesteldeToon}
+![](samengesteldeToon.png)
 
 Het functievoorschrift van de afgebeelde trilling is 
 
@@ -175,28 +178,36 @@ Het functievoorschrift van de afgebeelde trilling is
 y(t) = 0.5 \sin(2 \pi 10 t) + 1 \sin(2 \pi 20 t) + 1 \sin(2 \pi 30 t).
 \end{equation*}
 
-De amplitude en frequentie van de samengestelde toon kan je uit het functievoorschrift afleiden: $A_1 = 0.5$, $f_1 = 10$ Hz, $A_2 = 1$, $f_2 = 20$ Hz, $A_3 = 1$ en $f_3 = 30$ Hz. De waarden van de aanwezige frequenties en amplitudes afleiding uit de linkergrafiek in het tijdsdomein is niet zo eenvoudig afgeleid worden. Het frequentiespectrum komt hiervoor veel beter van pas: de samengestelde trilling is opgebouwd uit drie zuivere trillingen, \'e\'en op 10 Hz met amplitude 0.5, \'e\'en op 20 Hz met amplitude 1 en \'e\'en op 30 Hz met amplitude 1.
+De amplitude en frequentie van de samengestelde toon kan je uit het functievoorschrift afleiden: 
+A<sub>1</sub> = 0.5$, f<sub>1</sub> = 10 Hz, A<sub>2</sub> = 1, f<sub>2</sub> = 20 Hz, A<sub>3</sub> = 1 en f<sub>3</sub> = 30 Hz. 
+De waarden van de aanwezige frequenties en amplitudes afleiding uit de linkergrafiek in het tijdsdomein is niet zo eenvoudig afgeleid worden. 
+Het frequentiespectrum komt hiervoor veel beter van pas: de samengestelde trilling is opgebouwd uit drie zuivere trillingen, 
+één op 10 Hz met amplitude 0.5, één op 20 Hz met amplitude 1 en één op 30 Hz met amplitude 1.
 
-In het algemeen kan een samengestelde toon geschreven worden als een som van $N$ zuivere tonen, elk met amplitude $A_n$ en frequentie $f_n$:
+In het algemeen kan een samengestelde toon geschreven worden als een som van N zuivere tonen, elk met amplitude A<sub>n</sub> en frequentie f<sub>n</sub>:
 
 \begin{equation*}
 y(t) = \sum_{n=1}^{N} A_n \sin(2 \pi f_n t).
 \end{equation*}
 
 
-Kortom: de frequentiecomponenten van een geluid vindt je aan de hand van het frequentiespectrum. Dit drukt de intensiteit van de verschillende frequentiecomponenten uit die aanwezig zijn bij een bepaald geluid. 
+Kortom: de frequentiecomponenten van een geluid vindt je aan de hand van het frequentiespectrum. 
+Dit drukt de intensiteit van de verschillende frequentiecomponenten uit die aanwezig zijn bij een bepaald geluid. 
 
-Het menselijk ook is gevoelig voor frequenties van 20 Hz tot 20 kHz. Naarmate men ouder wordt, wordt het oor ongevoeliger voor hoge frequenties waardoor deze stiller of niet ervaren zullen worden.\\
-
-% \todo{Frequentie uitgebreider uitleggen}
+Het menselijk ook is gevoelig voor frequenties van 20 Hz tot 20 kHz. 
+Naarmate men ouder wordt, wordt het oor ongevoeliger voor hoge frequenties waardoor deze stiller of niet ervaren zullen worden.
 
 \todo{Zo een grijze kolom met: Test jouw eigen gehoor. Tot welke frequentie kan jij horen?}
 
-De gevoeligheid van het gemiddeld menselijk oor is afgebeeld in Figuur \ref{fig:Afilter}. Uit deze grafiek kan men afleiden dat zowel de lage bastonen als de hoge pieptonen verzwakt worden waargenomen. 
+De gevoeligheid van het gemiddeld menselijk oor is afgebeeld in Figuur \ref{fig:Afilter}. 
+Uit deze grafiek kan men afleiden dat zowel de lage bastonen als de hoge pieptonen verzwakt worden waargenomen. 
+<!---
 % In heel wat meetapparatuur wordt een filter verwerkt zodat de meetapparatuur de geluidssterkte opmeet die de mens zou ervaren en niet de werkelijke fysische intensiteit.
 \todo{Beter uitleggen}
+-->
 
-\figuurmetlabel[\label{fig:Afilter}]{width=0.75\linewidth}{dBA.pdf}{Vorm van een A-filter}
+![](dBA.pdf) Vorm van een A-filter
+
 
 \begin{oef}
 Bepaal zelf aan de hand van de grafiek voor welke frequenties het oor het meest gevoelig is. Voor welke frequentie wordt een bepaald geluid 10 keer stiller ervaren dan het in werkelijkheid is?
@@ -211,18 +222,20 @@ Geluidsverzwakking met toenemende afstand tot de geluidsbron in de vrije ruimte 
 Ten eerste is lucht een elastisch medium en zal dit ervoor zorgen dat er verzwakking optreedt. Wanneer geluidsgolven door lucht propageren, worden luchtmoleculen versneld. 
 Die versnelling zorgt onvermijdelijk voor wrijving. 
 Wrijving is een vorm van energieverlies, wat leidt tot een verzwakt geluid.
-Ten tweede is er het effect van *divergentie*. Dat betekent dat het vermogen van een geluidsgolf uitgespreid wordt over een groter oppervlak naarmate deze geluidsgolf zich verder van de bron bevindt. In Vergelijking~\ref{eq:div} wordt de verzwakking van de amplitude van een geluidsgolf berekend in functie van de afstand.
-\vspace{5mm}
+Ten tweede is er het effect van *divergentie*. 
+Dat betekent dat het vermogen van een geluidsgolf uitgespreid wordt over een groter oppervlak naarmate deze geluidsgolf zich verder van de bron bevindt. 
+In Vergelijking~\ref{eq:div} wordt de verzwakking van de amplitude van een geluidsgolf berekend in functie van de afstand.
+
 
 \begin{equation}\label{eq:div}
 D_{div} = 20 \cdot log\bigg(\frac{d}{d_0}\bigg) + 11 ~ \text{dB}
 \end{equation}
+
 Hierbij is
-\begin{itemize}
-    \item $D_{div}$: de verzwakking ten opzichte van een geluid waargenomen op de referentieafstand
-    \item $d$: de afstand van de waarnemer ten opzichte van de geluidsbron
-    \item $d_0$: de referentieafstand (van de bron) waartegenover we de verzwakking bepalen
-\end{itemize}
+- D<sub>div</sub>: de verzwakking ten opzichte van een geluid waargenomen op de referentieafstand
+- d: de afstand van de waarnemer ten opzichte van de geluidsbron
+- d<sub>0</sub>: de referentieafstand (van de bron) waartegenover we de verzwakking bepalen
+
 
 \begin{oef}
 Met hoeveel dB zal de amplitude afnemen van een geluidsgolf wanneer de referentie afstand 1m bedraagt en wij een geluid horen op 6m afstand?
@@ -241,11 +254,13 @@ dB-meters worden tegenwoordig vaak gebruikt op fuiven, concerten en festivals. D
 Geluid afkomstig van muziekactiviteiten kan opgedeeld worden in drie categorieën die bepaald worden aan de hand van het equivalent continu geluidsniveau (L$_{Aeq}$). Dit is het constante geluidsdrukniveau dat gedurende een tijdsduur $T$ dezelfde energie levert als de werkelijk gemeten geluidsdrukniveaus gedurende die tijdsduur $T$. Dit kan bijvoorbeeld zeggen dat het geluid over een periode van 15 minuten gemeten wordt en het gemiddelde lager moet zijn dan 95 dB. De 3 categorieën met bijhorende voorwaarden zijn hieronder weergegeven.
 \vspace{5mm}
 
-\textbf{Categorie 1}: geluidsniveau $\leq$ 85 dB(A)L$_{Aeq, 15min}$\\
-\textbf{Categorie 2}: geluidsniveau $>$ 85 dB(A)L$_{Aeq, 15min}$ en $\leq$ 95 dB(A)L$_{Aeq, 15min}$\\
-\textbf{Categorie 3}: geluidsniveau $>$ 95 dB(A)L$_{Aeq, 15min}$ en $\leq$ 100 dB(A)L$_{Aeq, 60min}$\\
+- **Categorie 1**: geluidsniveau <85 dB(A)L<sub>Aeq, 15min</sub>
+- **Categorie 2**: geluidsniveau $>$ 85 dB(A)L<sub>Aeq, 15min</sub> en >= 95 dB(A)L<sub>Aeq, 15min</sub>
+- **Categorie 3**: geluidsniveau $>$ 95 dB(A)L<sub>Aeq, 15min</sub> en >= 100 dB(A)L<sub>Aeq, 60min</sub>
 
-In theorie kan voor elke muziekactiviteit gekozen worden welke categorie van toepassing is. In de praktijk zijn de organisatoren echter vaak ook beperkt tot een maximale categorie omwille van omgevingsfactoren zoals bijvoorbeeld de buren. Het is het Schepencollege en de Burgemeester van de betreffende gemeente die hierin het laatste woord hebben te zeggen~\cite{fuifpunt1}. \\
+In theorie kan voor elke muziekactiviteit gekozen worden welke categorie van toepassing is. 
+In de praktijk zijn de organisatoren echter vaak ook beperkt tot een maximale categorie omwille van omgevingsfactoren zoals bijvoorbeeld de buren. 
+Het is het Schepencollege en de Burgemeester van de betreffende gemeente die hierin het laatste woord hebben te zeggen. 
 
 ## Hoe geluid meten?
 
