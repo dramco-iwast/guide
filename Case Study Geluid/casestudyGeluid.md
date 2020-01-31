@@ -124,33 +124,29 @@ Van zodra men start met het refereren van een geluidsniveau ten opzichte van de 
 De vergelijking hieronder wordt ook frequent gehanteerd om de geluidssterkte te beschrijven aan de hand van drukken 
 waarbij p<sub>0</sub> ook wel de referentiedruk wordt genoemd en 20 $\mu$Pa bedraagt.
 
+$$latex
 \begin{equation}\label{eq:dbp}
 L_p = 20 \cdot log \bigg(\frac{p}{p_0}\bigg)
 \end{equation}
-\vspace{1mm}
+$$
 
-In de tabel hieronder zijn enkele typische geluidssterktes voor verschillende activiteiten weergegeven.\\
-\todo{ref tabel fixen}
+In de tabel hieronder zijn enkele typische geluidssterktes voor verschillende activiteiten weergegeven.
 
-\begin{tabel}{Intensiteit voor verschillende geluidsbronnen.}
-\begin{tabular}{c|l|c}
-\hline
-dB\textsubscript{SPL} & Geluidsbron & Intensiteit ($\textstyle\tfrac{\text{W}}{\text{m}^2}$) \\ [2ex] \hline
-0   & Gehoorgrens          &         $1\cdot 10^{-12}$        \\
-	10  & Ruisende bladeren    &       $1\cdot 10^{-11}$       \\
-	30  & Gefluister           &        $1\cdot 10^{-9}$   \\  
-	40  & Radio op achtergrond &      $1\cdot 10^{-8}$           \\    
-	65  & Een gesprek op 0.5 m afstand    &        $3\cdot 10^{-6}$       \\    
-	70  & Druk restaurant      &          $1\cdot 10^{-5}$     \\    
-	80  & Druk verkeer         &        $1\cdot 10^{-4}$       \\  
-	90  & Vrachtverkeer        &        $1\cdot 10^{-3}$      \\    
-	100 & Sirene op 30 m       &        $1\cdot 10^{-2}$      \\    
-	120 & Luid popconcert      &        $1$        \\   
-	120 & Pijngrens            &        $1$        \\   
-	140 & Straaljager op 30 m afstand  &        $100$     \\   
-\end{tabular}
-\label{tab:dBwaarden}
-\end{tabel}
+|dB<sub>SPL</sub>         | Geluidsbron | Intensiteit (W/m<sup>2</sup>) | 
+| ------------- |:-------------:|:-------------:|
+|0   | Gehoorgrens          |         10<sup>-12</sup>        |
+	|10  | Ruisende bladeren    |       10<sup>-11</sup> |
+	|30  | Gefluister           |        10<sup>-9</sup> |  
+	|40  | Radio op achtergrond |      10<sup>-8</sup> |
+	|65  | Een gesprek op 0.5 m afstand    |    3.10<sup>-6</sup>|
+	|70  | Druk restaurant      |         10<sup>-5</sup> |
+	|80  | Druk verkeer         |        10<sup>-4</sup> |
+	|90  | Vrachtverkeer        |        10<sup>-3</sup> |
+	|100 | Sirene op 30 m       |        10<sup>-2</sup>  | 
+	|120 | Luid popconcert      |        1        |   
+	|120 | Pijngrens            |        1        |   
+	|140 | Straaljager op 30 m afstand  |        100     |   
+
 
 #### Toonhoogte
 
