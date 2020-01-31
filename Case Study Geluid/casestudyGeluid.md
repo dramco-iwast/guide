@@ -46,12 +46,12 @@ De intensiteit van het geluid, de monotoniciteit, de frequentie, de duur of het
 moment waarop het geluid zich voordoet, kunnen allemaal factoren zijn waardoor je een geluid als overlast gaat beschouwen. 
 
 Blootstelling aan geluid met hoge intensiteit kan vrijwel meteen zorgen voor gehoorverlies. Een knal, roepen in iemand zijn oor of vuurwerk zijn geluiden die het gehoor vrijwel direct aantasten. Indien de hoge geluidsintensiteit van korte duur is, kan het zijn dat de gehoordrempel tijdelijk verhoogd is waardoor stille geluiden tijdelijk niet meer kunnen worden waargenomen. Dit zou je na een fuif al kunnen ondervonden hebben.
-Indien je gedurende een lange tijd aan relatief luide geluiden wordt blootgesteld, kan het gehoorverlies permanent worden of kan er tinnitus optreden. Permanent gehoorverlies is onomkeerbaar net als tinnitus. In het geval van tinnitus stuurt je oor een signaal naar de hersenen dat er een geluid is, terwijl dat in werkelijkheid niet het geval is. Hierdoor kan je een permanente fluittoon ervaren. Uit onderzoek van het Universitair Ziekenhuis van Antwerpen blijkt dat 20\% van de Vlaamse jongeren permanent last heeft van tinnitus. 
+Indien je gedurende een lange tijd aan relatief luide geluiden wordt blootgesteld, kan het gehoorverlies permanent worden of kan er tinnitus optreden. Permanent gehoorverlies is onomkeerbaar net als tinnitus. In het geval van tinnitus stuurt je oor een signaal naar de hersenen dat er een geluid is, terwijl dat in werkelijkheid niet het geval is. Hierdoor kan je een permanente fluittoon ervaren. Uit onderzoek van het Universitair Ziekenhuis van Antwerpen blijkt dat 20% van de Vlaamse jongeren permanent last heeft van tinnitus. 
 
 In de tabel hieronder is weergegeven gedurende welke periode je maximaal mag blootgesteld worden aan bepaalde geluidsintensiteit zonder dat er gehoorverlies optreedt. 
 
 
-|Tijd per dag         | Geluidsintensiteit ($L_{Aeq}$}) [dB] |
+|Tijd per dag         | Geluidsintensiteit (L<sub>Aeq<\sub>) [dB] |
 | ------------- |:-------------:|
 |25 uur               | 80                                  |
 |2 uur 30 minuten     | 90                                  | 
@@ -75,10 +75,10 @@ De trilling zal zich vervolgens als een golf door de lucht verplaatsen naar de o
 Merk hierbij wel op dat de lucht ter plaatse blijft en dat het enkel de trilling is die wordt doorgegeven aan naburige luchtmoleculen.
 De situatie is grafisch voorgesteld in onderstaande figuur. 
 
-![Door het bewegen van het membraan ontstaat een trilling van luchtmoleculen.](Figure_15_05.jpg)
-![De trilling van de luchtmoleculen resulteert in drukverschillen in de ruimte, zoals weergegeven in de grafiek.](Figure_15_06.jpg)
+![Door het bewegen van het membraan ontstaat een trilling van luchtmoleculen.](Figure_15_05.jpg) "Door het bewegen van het membraan ontstaat een trilling van luchtmoleculen."
+![De trilling van de luchtmoleculen resulteert in drukverschillen in de ruimte, zoals weergegeven in de grafiek.](Figure_15_06.jpg) "De trilling van de luchtmoleculen resulteert in drukverschillen in de ruimte, zoals weergegeven in de grafiek."
 
-Door de trilling van de luchtmoleculen ontstaan drukverschillen: op sommige plaatsen zijn er relatief veel luchtmoleculen bij elkaar, daar is er een hogere \textquoteleft luchtdruk\textquoteright; op andere plaatsen zijn er relatief weinig luchtmoleculen bij elkaar, daar is er een lagere \textquoteleft luchtdruk\textquoteright.
+Door de trilling van de luchtmoleculen ontstaan drukverschillen: op sommige plaatsen zijn er relatief veel luchtmoleculen bij elkaar, daar is er een hogere 'luchtdruk'; op andere plaatsen zijn er relatief weinig luchtmoleculen bij elkaar, daar is er een lagere 'luchtdruk'.
 
 Trillingen worden, wanneer deze de oorschelp bereiken, versterkt en opgenomen door
 het trommelvlies in het oor. 
@@ -91,26 +91,36 @@ Bij geluid zijn er twee aspecten die voor de mens onmoddeljk duidelijk zijn: *vo
 Dit zijn perceptieve aspecten, ze hebben verband met hoe een luisteraar het geluid *ervaart*. We noemen het daarom *subjectieve* gewaarwordingen.
 Ze komen beiden overeen met *fysisch* meetbare grootheden.
 
-*Volume* is gerelateerd aan *geluidsintensiteit*, dit is de hoeveelheid energie die per tijdseenheid door een eenheidsoppervlak gaat. De geluidsintensiteit wordt meestal uitgedrukt aan de hand van de geluidssterkte in decibel/dB.
+*Volume* is gerelateerd aan *geluidsintensiteit*, dit is de hoeveelheid energie die per tijdseenheid door een eenheidsoppervlak gaat. 
+De geluidsintensiteit wordt meestal uitgedrukt aan de hand van de geluidssterkte in decibel/dB.
 
-De *toonhoogte* geeft aan of een geluid hoog of laag klinkt. De fysische grootheid die de toonhoogte bepaalt is de *frequentie*. Hoe hoger de frequentie, hoe hoger de toonhoogte; hoe lager de frequentie, hoe lager de toonhoogte.
+De *toonhoogte* geeft aan of een geluid hoog of laag klinkt. De fysische grootheid die de toonhoogte bepaalt is de *frequentie*. 
+Hoe hoger de frequentie, hoe hoger de toonhoogte; hoe lager de frequentie, hoe lager de toonhoogte.
 
 #### Geluidssterkte
 
-De geluidssterkte wordt meestal uitgedrukt in decibel, afgekort als dB. De decibel drukt de geluidssterkte uit aan de hand van de verhouding van intensiteiten $I_p$ en $I_0$. Intensiteit is gedefinieerd als de energie die door een golf wordt getransporteerd per tijdseenheid door een eenheidsoppervlak loodrecht op de voortplantingsrichting van de golf. 
-De eenheid van intensiteit is watt/meter$^2$ ($W/m^2$).
+De geluidssterkte wordt meestal uitgedrukt in decibel, afgekort als dB. 
+De decibel drukt de geluidssterkte uit aan de hand van de verhouding van intensiteiten I<sub>p<\sub> en I<sub>0<\sub>. 
+Intensiteit is gedefinieerd als de energie die door een golf wordt getransporteerd per tijdseenheid door een eenheidsoppervlak loodrecht op de voortplantingsrichting van de golf. 
+De eenheid van intensiteit is watt/meter<sup>2<\sup> (W/m<sup>2<\sup>).
 De intensiteit is evenredig met het kwadraat van de amplitude van de golf. 
 
-Het menselijk oor is in staat om geluiden te horen met een intensiteit $I_p$ tussen $10^{-12}$ $\frac{\text{W}}{\text{m}^2}$ (gehoorgrens) en 1 $\frac{\text{W}}{\text{m}^2}$ (pijngrens). Het is vanzelfsprekend dat de intensiteit hoger kan zijn dan de pijngrens, maar vervolgens pijn aan de oren veroorzaakt. 
-Het intensiteitsbereik tussen de gehoorgrens en de pijngrens dat mensen kunnen waarnemen is ongelooflijk groot ($10^{12}$). Wellicht is hierdoor het volume dat wij ervaren niet recht evenredig met de intensiteit. Om een geluid te ervaren dat dubbel zo hard klinkt, moet de intensiteit ongeveer met een factor $10$ toenemen. Daarom wordt een nieuwe grootheid ingevoerd: de *geluidssterkte* met als eenheid de decibel, afgekort als $dB$.
+Het menselijk oor is in staat om geluiden te horen met een intensiteit I<sub>p<\sub> tussen 10<sup>-12<\sup> W/m<sup>2<\sup> (gehoorgrens) en 1 W/m<sup>2<\sup> (pijngrens). Het is vanzelfsprekend dat de intensiteit hoger kan zijn dan de pijngrens, maar vervolgens pijn aan de oren veroorzaakt. 
+Het intensiteitsbereik tussen de gehoorgrens en de pijngrens dat mensen kunnen waarnemen is ongelooflijk groot (10<sup>-12<\sup>). 
+Wellicht is hierdoor het volume dat wij ervaren niet recht evenredig met de intensiteit. 
+Om een geluid te ervaren dat dubbel zo hard klinkt, moet de intensiteit ongeveer met een factor 10 toenemen. 
+Daarom wordt een nieuwe grootheid ingevoerd: de *geluidssterkte* met als eenheid de decibel, afgekort als dB.
 
-De geluidssterkte $L_p$ wordt bepaald als het logaritme van de verhouding van de intensiteit $I_p$ van het geluid ten opzichte van de gehoorgrens $I_0 ~ = ~ 10^{-12} ~\frac{\text{W}}{\text{m}^2}$: 
+De geluidssterkte $L_p$ wordt bepaald als het logaritme van de verhouding van de intensiteit I<sub>p<\sub> van het geluid ten opzichte van de gehoorgrens 
+I<sub>0<\sub> ~ = 10<sup>12<\sup> W/m<sup>2<\sup>: 
 
-\begin{equation}\label{eq:dbI}
+$$latex
 	L_p = 10\cdot log \bigg(\frac{I_p}{I_0}\bigg) 
-\end{equation}
+$$
 
-Van zodra men start met het refereren van een geluidsniveau ten opzichte van de gehoorgrens spreekt men ook van dB$_{\text{SPL}}$ (Sound Pressure Level). Vergelijking~\ref{eq:dbp} wordt ook frequent gehanteerd om de geluidssterkte te beschrijven aan de hand van drukken waarbij $p_0$ ook wel de referentiedruk wordt genoemd en 20 $\mu$Pa bedraagt.
+Van zodra men start met het refereren van een geluidsniveau ten opzichte van de gehoorgrens spreekt men ook van dB<sub>SPL<\sub> (Sound Pressure Level). 
+De vergelijking hieronder wordt ook frequent gehanteerd om de geluidssterkte te beschrijven aan de hand van drukken 
+waarbij p<sub>0<\sub> ook wel de referentiedruk wordt genoemd en 20 $\mu$Pa bedraagt.
 
 \begin{equation}\label{eq:dbp}
 L_p = 20 \cdot log \bigg(\frac{p}{p_0}\bigg)
