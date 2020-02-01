@@ -8,6 +8,9 @@ has_toc: true
 
 # Configuration
 
+## Configuration Tool
+see.
+
 ## Reading Sensor Data
 There are two approaches to read sensor data.
 During the configuration, you can opt to use polling and/or interrupt-based communication.
@@ -23,3 +26,5 @@ In this way the motherboard can go to sleep, knowing it will be interrupted by t
 In contrast to interrupt-based communication, the motherboard will actively poll the sensor to request the data.
 As a result the motherboard needs to periodically wake up when it wants to read-out the sensor. 
 It is to be expected that power consumption will be higher in this case, and therefore you will need to recharge your battery or power bank sooner than with interrupt-based communication.
+
+

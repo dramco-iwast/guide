@@ -2,7 +2,7 @@
 layout: default
 title: What are thresholds?
 parent: Configuration
-nav_order: 1
+nav_order: 2
 ---
 
 Some sensors are able to generate an interupt when a certain metric value is exceeded.
