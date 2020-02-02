@@ -2,7 +2,7 @@
 layout: default
 title: What is polling?
 parent: Configuration
-nav_order: 3
+nav_order: 2
 ---
 
 Some sensors can be polled.

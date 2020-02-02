@@ -2,7 +2,7 @@
 layout: default
 title: What are thresholds?
 parent: Configuration
-nav_order: 2
+nav_order: 1
 ---
 
 Some sensors are able to generate an interupt when a certain metric value is exceeded.
@@ -15,12 +15,16 @@ This allow us to get updates in three distinct manners.
 
 In all cases an interrupt is generated when the metric value exceeds `TH` or when is falls below `TL`. When playing with the `TH` and `TL` configuration we can manipulate when we want an update.
 
-
-1. If we are interested when a value is higher than `TH` or lower than `TL`, we define: `TH` with a higher value as `TL`.
+1. If we are interested to be notified when a value is higher than `TH` or lower than `TL`, we define: `TH` with a higher value as `TL`.
+For example: if we want to get sensor data when a sound level exceeds 100 dB or when it is lower dan 50 dB, we set `TH=100` and `TL=50`.
 
 2. If we are interested when a value enters the area between `TH` and `TL`,  `TL` has a higher value than `TH`.
+For example: if we want to get sensor data when a sound level is between 50 and 100 dB, we set `TH=50` and `TL=100`.
 
 3. If we want to know when a metric value crosses a specific value, we can define `TH` equal to `TL`.
+For example: if we want to get sensor data when a sound level crosses 80 dB, regardless if the sound level was higher or lower before, we set `TH=80` and `TL=80`.
+
+In the figure below, dashed horizontal lines indicate when sensor data is transmitted to the gateway.
 
 ![](../assets/images/tl-th-thresholds.svg)
 
