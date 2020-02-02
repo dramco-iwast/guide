@@ -11,10 +11,12 @@ Hieronder zie je een screenshot van de configuratie-tool. Voer de aangeduide sta
 
 ![](../assets/images/config-tool-fig.png)
 
-Sluit het moederbord, samen met de sensoren die je wilt configureren via USB aan je computer aan. 
 De aangesloten USB apparaten zie je rechtsboven (a).
+Sluit het moederbord, samen met de sensoren die je wilt configureren via USB aan je computer aan. 
 Vernieuw indien nodig het lijstje van USB apparaten door op 'refresh' te drukken (b).
-Selecteer het USB apparaat naar keuze (je moederbord) en druk op connect (c).
+Als je net het moederbord hebt aangesloten, zie je in het lijstje van USB apparaten nu wellicht een nieuwe COM-poort verschijnen. 
+Dit is het nummer van de USB-poort waarop je je moederbord hebt aangesloten.
+Selecteer het USB apparaat naar keuze (de COM-poort waarop je moederbord is aangesloten) en druk op connect (c).
 
 Daarna moeten de sensoren die aan je moederbord geconnecteerd zijn in het lijstje (d) verschijnen. 
 Selecteer de sensor die je wilt configureren. 
