@@ -23,3 +23,14 @@ In all cases an interrupt is generated when the metric value exceeds `TH` or whe
 3. If we want to know when a metric value crosses a specific value, we can define `TH` equal to `TL`.
 
 ![](../assets/images/tl-th-thresholds.svg)
+
+In the table below you can find the minimum and maximum values `TL` and `TH` can take, for each physical quantity and each sensor.
+
+| Sensor type   | Physical quantity     | minimum | maximum |
+| ------------- |:-------------:|:-------------:|:-------------:| 
+| Sound level sensor     | Sound level (dB) | 0 | 120 |
+| Environmental sensor      | Temperature (&deg;C)  | -40  | 100 |
+| Environmental sensor      | Air pressure (hPa)  | 0  |	65000 |
+| Environmental sensor      |  Humidity (%) | 0  | 100	|
+| Environmental sensor      | Air quality (no unit)  | 0  |	600 |
+| Button sensor | - (no thresholding)  |  - (no thresholding) | - (no thresholding) |
