@@ -2,12 +2,14 @@
 layout: default
 title: Configuration Tool
 parent: Configuration
-nav_order: 1
+nav_order: 3
 ---
 
 De configuratie-tool kan je downloaden via XXX. Wanneer je het .exe-bestand opent, installeert de tool vanzelf op je computer.
 
 Hieronder zie je een screenshot van de configuratie-tool. Voer de aangeduide stappen in volgorde uit ((a) tot (j)).
+
+![](../assets/images/config-tool-fig.png)
 
 Sluit het moederbord, samen met de sensoren die je wilt configureren via USB aan je computer aan. 
 De aangesloten USB apparaten zie je rechtsboven (a).
@@ -20,7 +22,7 @@ Klik vervolgens op 'load' om de huidige configuratie (instellingen) van de senso
 
 Pas de instellingen aan indien nodig. 
 Bepaal ten eerste of je wilt werken via polling- of interrupt-gebaseerde communicatie, of of  je beide wilt combineren.
-Meer info over polling vind je [hier] (./what-is-polling.html) en over interrupt-gebaseerde communicatie [hier] (./what-are-thresholds).
+Meer info over polling vind je [hier] (what-is-polling.html) en over interrupt-gebaseerde communicatie [hier] (what-are-thresholds).
 
 Als je de data van je sensor NIET periodisch wilt opvragen (GEEN polling), laat het polling interval dan op 0 staan.
 Als je de data van je sensor WEL periodisch wilt opvragen (WEL polling), stel het polling interval dan in op het gewenste aantal minuten.
@@ -39,8 +41,6 @@ Als je tevreden bent over de instellingen voor je sensor, sla je de configuratie
 Je krijgt wat info te zien in het vakje onderaan (i), maar daar hoef je je normaal gezien niets van aan te trekken.
 Nu moet je alleen nog op de knop 'disconnect' onderaan drukken om alle instellingen permanent op te slaan (j).
 Nu mag je de USB connectie met het moederbord loskoppelen.
-
-![](../assets/images/config-tool-fig.png)
 
 
 
