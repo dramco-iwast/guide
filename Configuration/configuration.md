@@ -29,4 +29,4 @@ As a result the motherboard needs to periodically wake up when it wants to read-
 It is to be expected that power consumption will be higher in this case, and therefore you will need to recharge your battery or power bank sooner than with interrupt-based communication.
 
 ## Configuration Tool
-See [here] (./configuration-tool.html).
+See [here](./configuration-tool.html).

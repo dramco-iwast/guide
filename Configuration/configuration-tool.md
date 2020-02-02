@@ -22,7 +22,7 @@ Klik vervolgens op 'load' om de huidige configuratie (instellingen) van de senso
 
 Pas de instellingen aan indien nodig. 
 Bepaal ten eerste of je wilt werken via polling- of interrupt-gebaseerde communicatie, of of  je beide wilt combineren.
-Meer info over polling vind je [hier] (what-is-polling.html) en over interrupt-gebaseerde communicatie [hier] (what-are-thresholds).
+Meer info over polling vind je [hier](what-is-polling.html) en over interrupt-gebaseerde communicatie [hier](what-are-thresholds).
 
 Als je de data van je sensor NIET periodisch wilt opvragen (GEEN polling), laat het polling interval dan op 0 staan.
 Als je de data van je sensor WEL periodisch wilt opvragen (WEL polling), stel het polling interval dan in op het gewenste aantal minuten.
