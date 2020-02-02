@@ -5,7 +5,7 @@ parent: Configuration
 nav_order: 3
 ---
 
-De configuratie-tool kan je downloaden via XXX. Wanneer je het .exe-bestand opent, installeert de tool vanzelf op je computer.
+De configuratie-tool kan je downloaden via [https://github.com/dramco-iwast/qt-config/releases](https://github.com/dramco-iwast/qt-config/releases). Wanneer je het `iwastconfiguratorSetup.exe` opent, installeert de tool vanzelf op je computer.
 
 Hieronder zie je een screenshot van de configuratie-tool. Voer de aangeduide stappen in volgorde uit ((a) tot (j)).
 
