@@ -9,7 +9,7 @@ has_toc: true
 # Configuration
 
 ## Configuration Tool
-see.
+See [here] (./configuration-tool.html).
 
 ## Reading Sensor Data
 There are two approaches to read sensor data.
