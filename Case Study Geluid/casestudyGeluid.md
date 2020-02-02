@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Case study geluid
-has_children: false
+has_children: true
 nav_order: 6
 has_toc: true
 ---
