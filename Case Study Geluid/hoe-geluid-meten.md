@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hoe geluid meten?
-parent: caseStudyGeluid
+parent: Case study geluid
 nav_order: 4
 ---
 

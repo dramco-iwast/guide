@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wat is geluid?
-parent: caseStudyGeluid
+parent: Case study geluid
 nav_order: 3
 ---
 

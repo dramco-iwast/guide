@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Motivatie
-parent: caseStudyGeluid
+parent: Case study geluid
 nav_order: 1
 ---
 
