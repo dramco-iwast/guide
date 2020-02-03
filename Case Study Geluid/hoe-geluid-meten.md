@@ -20,9 +20,13 @@ Het piëzo-elektrisch effect is het verschijnsel dat kristallen van bepaalde mat
 er zijn materialen die vervormen als er een elektrische spanning op wordt aangelegd. 
 Geluid is een drukgolf en kan dan ook een elektrische spanning produceren.
 
-De frequentie van het geluid zal overeenkomen met de frequentie van het elektrische signaal. De amplitude van de geluidsgolf zal evenredig zijn met de amplitude van het elektrische signaal. De signalen afkomstig van de microfoon zijn soms slechts enkele millivolt groot en bevatten ruissignalen die niet gunstig zijn voor de meting. Om het geluid en de geluidssterkte goed te kunnen inschatten, zal het elektrisch signaal met behulp van een versterker moeten versterkt worden. Een signaal versterken betekent dat we de amplitude doen toenemen, bijvoorbeeld door het hele signaal met een factor $100$ te vermenigvuldigen. 
+De frequentie van het geluid zal overeenkomen met de frequentie van het elektrische signaal. 
+De amplitude van de geluidsgolf zal evenredig zijn met de amplitude van het elektrische signaal. 
+De signalen afkomstig van de microfoon zijn soms slechts enkele millivolt groot en bevatten ruissignalen die niet gunstig zijn voor de meting. 
+Om het geluid en de geluidssterkte goed te kunnen inschatten, zal het elektrisch signaal met behulp van een versterker moeten versterkt worden. 
+Een signaal versterken betekent dat we de amplitude doen toenemen, bijvoorbeeld door het hele signaal met een factor 100 te vermenigvuldigen. 
 
-Om enkel die signalen over te houden waarin men geïnteresseerd is, gebruiken we filters. Deze zullen de laag- en hoogfrequente ruis wegfilteren zodat enkel het gunstige signaal zo goed als mogelijk overblijft. 
+Om enkel die signalen over te houden die we kunnen horen (nuttige signalen), gebruiken we filters. Deze zullen de laag- en hoogfrequente ruis wegfilteren zodat enkel het gunstige signaal zo goed als mogelijk overblijft. 
 Zoals hierboven beschreven bestaat een geluid uit verschillende frequentiecomponenten. 
 Het door een microfoon opgenomen signaal bevat daarenboven stoorsignalen, we noemen dit ruis.
 De ruis bevat niet noodzakelijk dezelfde frequentiecomponenten als het nuttige signaal.

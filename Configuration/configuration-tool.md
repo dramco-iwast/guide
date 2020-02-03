@@ -43,6 +43,7 @@ Als nu de drempelwaarde voor de temperatuur overschreden wordt, maar die voor dr
 Als je tevreden bent over de instellingen voor je sensor, sla je de configuratie op (h). 
 Je krijgt wat info te zien in het vakje onderaan (i), maar daar hoef je je normaal gezien niets van aan te trekken.
 Nu moet je alleen nog op de knop 'disconnect' onderaan drukken om alle instellingen permanent op te slaan (j).
+Als je niet op 'disconnect' klikt, worden de instellingen NIET opgeslagen.
 Nu mag je de USB connectie met het moederbord loskoppelen.
 
 
