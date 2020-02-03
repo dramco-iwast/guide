@@ -16,13 +16,13 @@ This allow us to get updates in three distinct manners.
 In all cases an interrupt is generated when the metric value exceeds `TH` or when is falls below `TL`. When playing with the `TH` and `TL` configuration we can manipulate when we want an update.
 
 1. If we are interested to be notified when a value is higher than `TH` or lower than `TL`, we define: `TH` with a higher value as `TL`.
-For example: if we want to get sensor data when a sound level exceeds 100 dB or when it is lower dan 50 dB, we set `TH=100` and `TL=50`.
+For example: if we want to get sensor data when a sound level exceeds 100 dB or when it is lower dan 80 dB, we set `TH=100` and `TL=80`.
 
 2. If we are interested when a value enters the area between `TH` and `TL`,  `TL` has a higher value than `TH`.
-For example: if we want to get sensor data when a sound level is between 50 and 100 dB, we set `TH=50` and `TL=100`.
+For example: if we want to get sensor data when a sound level is between 80 and 100 dB, we set `TH=80` and `TL=100`.
 
 3. If we want to know when a metric value crosses a specific value, we can define `TH` equal to `TL`.
-For example: if we want to get sensor data when a sound level crosses 80 dB, regardless if the sound level was higher or lower before, we set `TH=80` and `TL=80`.
+For example: if we want to get sensor data when a sound level crosses 85 dB, regardless if the sound level was higher or lower before, we set `TH=85` and `TL=85`.
 
 In the figure below, dashed horizontal lines indicate when sensor data is transmitted to the gateway.
 
@@ -38,3 +38,7 @@ In the table below you can find the minimum and maximum values `TL` and `TH` can
 | Environmental sensor      |  Humidity (%) | 0  | 100	|
 | Environmental sensor      | Air quality (no unit)  | 0  |	600 |
 | Button sensor | - (no thresholding)  |  - (no thresholding) | - (no thresholding) |
+
+Pay attention! Due to the manner in which sound levels are calculated, the measured sound level is always at least 70 dB. 
+Therefore it does not make sense to try to measure 'quiet' sounds.
+It is also not allowed to set thresholds lower than 75 dB, as this will lead to constant data transmission, which consume a lot of power and will drain the battery.

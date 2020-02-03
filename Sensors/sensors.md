@@ -31,4 +31,7 @@ In the table below you can find the minimum and maximum values `TL` and `TH` can
 | Environmental sensor      | Air quality (no unit)  | 0  |	600 |
 | Button sensor | - (no thresholding)  |  - (no thresholding) | - (no thresholding) |
 
+Pay attention! Due to the manner in which sound levels are calculated, the measured sound level is always at least 70 dB. 
+Therefore it does not make sense to try to measure 'quiet' sounds.
+It is also not allowed to set thresholds lower than 75 dB, as this will lead to constant data transmission, which consume a lot of power and will drain the battery.
 
