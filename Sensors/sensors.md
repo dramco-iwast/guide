@@ -24,7 +24,7 @@ In the table below you can find the minimum and maximum values `TL` and `TH` can
 
 | Sensor type   | Physical quantity     | minimum | maximum |
 | ------------- |:-------------:|:-------------:|:-------------:| 
-| Sound level sensor     | Sound level (dB) | 0 | 120 |
+| Sound level sensor     | Sound level (dB) | 75 | 120 |
 | Environmental sensor      | Temperature (&deg;C)  | -40  | 100 |
 | Environmental sensor      | Air pressure (hPa)  | 0  |	65000 |
 | Environmental sensor      |  Humidity (%) | 0  | 100	|

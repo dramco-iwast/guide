@@ -5,7 +5,8 @@ parent: Configuration
 nav_order: 3
 ---
 
-De configuratie-tool kan je downloaden via [https://github.com/dramco-iwast/qt-config/releases](https://github.com/dramco-iwast/qt-config/releases). Wanneer je het `iwastconfiguratorSetup.exe` bestand opent, installeert de tool vanzelf op je computer.
+De configuratie-tool kan je downloaden via [https://github.com/dramco-iwast/qt-config/releases](https://github.com/dramco-iwast/qt-config/releases). 
+Wanneer je het `iwastconfiguratorSetup.exe` bestand opent, installeert de tool vanzelf op je computer.
 
 Hieronder zie je een screenshot van de configuratie-tool. Voer de aangeduide stappen in volgorde uit ((a) tot (j)).
 
@@ -13,6 +14,7 @@ Hieronder zie je een screenshot van de configuratie-tool. Voer de aangeduide sta
 
 De aangesloten USB apparaten zie je rechtsboven (a).
 Sluit het moederbord, samen met de sensoren die je wilt configureren via USB aan je computer aan. 
+Druk op de grote ronde 'reset' knop op het moederbord.
 Vernieuw indien nodig het lijstje van USB apparaten door op 'refresh' te drukken (b).
 Als je net het moederbord hebt aangesloten, zie je in het lijstje van USB apparaten nu wellicht een nieuwe COM-poort verschijnen. 
 Dit is het nummer van de USB-poort waarop je je moederbord hebt aangesloten.
