@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hoe geluid meten?
+title: Toepassing
 parent: Case study geluid
 nav_order: 5
 ---
@@ -22,32 +22,23 @@ De 3 categorieën met bijhorende voorwaarden zijn hieronder weergegeven.
 In theorie kan voor elke muziekactiviteit gekozen worden welke categorie van toepassing is. 
 In de praktijk zijn de organisatoren echter vaak ook beperkt tot een maximale categorie omwille van omgevingsfactoren zoals bijvoorbeeld de buren. 
 
-### Open lucht vs in een kamer
-Een puntbron, een begrip uit de theorie van trillingen en golven, is een in een punt geconcentreerd gedachte trillingsbron, bijvoorbeeld van geluid, licht, of van watergolven, waarvandaan de energie zich in alle richtingen gelijkelijk uitbreidt.
+### Geluidsoverdracht in open lucht vs in een kamer
+Soms kunnen we zeggen dat geluid afkomstig is van een *puntbron*.
+Een puntbron is een in een punt geconcentreerd gedachte trillingsbron, bijvoorbeeld van geluid, licht, of van watergolven, waarvandaan de energie zich in alle richtingen gelijkelijk uitbreidt.
+In open lucht en met een luidspreker of bron die geluid in alle richtingen uitsturen kunnen we de geluidsbron min of meer voorstellen als een puntbron. 
+Het geluid zal zich gelijkwaardig in alle richtingen voortplanten.
+De ontvanger ontvangt enkel geluid rechtstreeks afkomstig van de geluidsbron.
+De verzwakking van het geluid is afhankelijk van de afstand tot de geluidsbron.
+Als je de afstand tussen de geluidsbron en de ontvanger (bv. de microfoon) kent, kan je berekenen wat het geluidsniveau ter hoogte van de geluidsbron ongeveer is.
 
-In this article, we will examine the effect of multipath propagation to a transmitted signal. Furthermore, we will illustrate the effect with the help of audio examples (scroll down for the examples).
-
-First, let's try to understand the transmission of a signal from a source S to a destination D, which are d meters apart:
-
- 
-
-If we assume, the signal travels with velocity c, it will take τ=dc seconds until it arrives at the destination. Mathematically, we have
-
-y(t)=x(t−dc),
-where x(t) is the transmitted signal and y(t) is the received signal. Now, we know that the signal from the source is not only transmitted into the direction of D, but in all directions. Let's assume somewhere around the source, there is a big wall that can reflect the signal:
-
- 
-
-So, at the destination we receive two copies of the signal: One over the path of d meters and one over the path of d1 + d2 meters. Let us assume that the reflection of the signal at the wall removes 50% of the amplitude from the signal. Then, the received signal at the destination can be mathematically written as
-
-y(t)=x(t−dc)+0.5⋅x(t−d1+d2c).
-This characteristic is named multipath propagation, since the signal can arrive at the destination via multiple different paths.
-
-Geluid afkomstig van een geluidsinstallatie (de *geluidsbron*) zal in open lucht .
-
-Hoe rekening houden met verzwakking owv afstand en andere factoren
-
-Eventueel: hoeveel microfoons nodig / op hoeveel plaatsen geluid meten om vast te stellen dat geluidsniveau nergens overschreden wordt? Evtl simuleren?
+In andere situaties kunnen we de geluidsbron niet voorstellen als een puntbron. 
+Bijvoorbeeld binnen in een kamer treden er reflecties op: het geluid afkomstig van de geluidsbron plant weerkaatst op de muren en objecten.
+Bij de ontvanger komt het geluid van de geluidsbron meerdere keren toe: enerzijds zien we de rechtstreekse component, rechtstreeks afkomstig van de geluidsbron.
+Anderzijds komen ook de geluidsgolven afkomstig van de geluidsbron die reflecteren op de muren en andere voorwerpen, bij de ontvanger toe.
+We noemen dit een multipad-omgeving: het geluid volgt meerdere paden (rechtstreeks en via reflectie) van de zender (geluidsbron) naar de ontvanger.
+Naast de verzwakking door afstand tussen bron en ontvanger, kan het ook zijn dat die verschillende geluidsgolven bij de ontvanger elkaar *versterken* (het geluid klinkt luider), of *verzwakken* (je hoort het geluid bijna of helemaal niet meer).
+Het gedrag van geluid in een multipad-omgeving is moeilijk te modelleren: het hangt af van de precieze vorm van de kamer, welke voorwerpen in de kamer staan, de onderlinge positie van geluidsbron en -ontvanger, ...
+De effecten die optreden in een multipad-omgeving kan je daarom het beste experimenteel onderzoeken.
 
 ## Praktische uitvoering
 
