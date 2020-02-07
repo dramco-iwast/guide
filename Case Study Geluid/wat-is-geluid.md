@@ -145,11 +145,7 @@ Uit deze grafiek kan men afleiden dat zowel de lage bastonen als de hoge piepton
 
 ![](dBA.PNG) Vorm van een A-filter
 
-
-\begin{oef}
-Bepaal zelf aan de hand van de grafiek voor welke frequenties het oor het meest gevoelig is. Voor welke frequentie wordt een bepaald geluid 10 keer stiller ervaren dan het in werkelijkheid is?
-\end{oef}
-\oplos{TODO}
+*Bepaal zelf aan de hand van de grafiek voor welke frequenties het oor het meest gevoelig is. Voor welke frequentie wordt een bepaald geluid 10 keer stiller ervaren dan het in werkelijkheid is?*
 
 ## Verzwakking van geluid
 Geluid ondergaat door heel wat factoren een *verzwakking* of *attenuatie*. Temperatuur, luchtvochtigheid, afstand, de luchtdichtheid en de frequentie van het geluid spelen hierbij allemaal een rol.
@@ -173,11 +169,7 @@ Hierbij is
 - d: de afstand van de waarnemer ten opzichte van de geluidsbron
 - d<sub>0</sub>: de referentieafstand (van de bron) waartegenover we de verzwakking bepalen
 
-
-\begin{oef}
-Met hoeveel dB zal de amplitude afnemen van een geluidsgolf wanneer de referentie afstand 1m bedraagt en wij een geluid horen op 6m afstand?
-\end{oef}
-\oplos{TODO}
+*Met hoeveel dB zal de amplitude afnemen van een geluidsgolf wanneer de referentie afstand 1m bedraagt en wij een geluid horen op 6m afstand?*
 
 In een omgeving met objecten zullen er heel wat verzwakkingsfactoren bijkomen zoals grondeffecten, reflecties en obstakels. De totale verzwakkingsvergelijking is heel complex en wordt in dit college niet behandeld.
 
@@ -194,8 +186,8 @@ Dit kan bijvoorbeeld zeggen dat het geluid over een periode van 15 minuten gemet
 De 3 categorieën met bijhorende voorwaarden zijn hieronder weergegeven.
 
 - **Categorie 1**: geluidsniveau <85 dB(A)L<sub>Aeq, 15min</sub>
-- **Categorie 2**: geluidsniveau > 85 dB(A)L<sub>Aeq, 15min</sub> en >= 95 dB(A)L<sub>Aeq, 15min</sub>
-- **Categorie 3**: geluidsniveau > 95 dB(A)L<sub>Aeq, 15min</sub> en >= 100 dB(A)L<sub>Aeq, 60min</sub>
+- **Categorie 2**: geluidsniveau > 85 dB(A)L<sub>Aeq, 15min</sub> en <= 95 dB(A)L<sub>Aeq, 15min</sub>
+- **Categorie 3**: geluidsniveau > 95 dB(A)L<sub>Aeq, 15min</sub> en <= 100 dB(A)L<sub>Aeq, 60min</sub>
 
 In theorie kan voor elke muziekactiviteit gekozen worden welke categorie van toepassing is. 
 In de praktijk zijn de organisatoren echter vaak ook beperkt tot een maximale categorie omwille van omgevingsfactoren zoals bijvoorbeeld de buren. 

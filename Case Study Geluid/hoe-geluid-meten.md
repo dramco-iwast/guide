@@ -44,11 +44,7 @@ Door die snelle fluctuaties kleurt de grafiek rechts donkerder dan de grafiek li
 
 ![](outputMicOptimal.PNG) ![](outputmic.PNG)
 
-
-\begin{oef}
-Kan jij achterhalen welke frequenties zowel de hoog- als laagfrequente ruis in dit voorbeeld heeft?
-\end{oef}
-\oplos{TODO}
+*Kan jij achterhalen welke frequenties zowel de hoog- als laagfrequente ruis in dit voorbeeld heeft?*
 
 
 Om de ongunstige frequenties weg te filteren, gebruiken we een hoog- en laagdoorlaatfilter. De filter haalt frequenties hoger dan 8 kHz en lager dan 50 Hz weg uit het elektrisch signaal. Zo verkrijgen we een elektrische representatie die het dichtst aanleunt bij het geluid die door een mens kan worden waargenomen.
