@@ -3,6 +3,7 @@ layout: default
 title: F.A.Q.
 has_children: false
 has_toc: true
+nav_order: 8
 ---
 
 # F.A.Q.
