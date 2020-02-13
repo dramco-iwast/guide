@@ -11,11 +11,11 @@ nav_order: 8
 
 ## Moederbord
 
-##	Hoe groot is het geheugen (voor de sensordata) van het moederbord? Is het mogelijk om via interrupts (bv met de stemknoppen) gedurende bv. een halfuur veel input door te sturen als je daarna 24 uur stil ligt, of zal de data dan toch gedropt worden?
+###	Hoe groot is het geheugen (voor de sensordata) van het moederbord? Is het mogelijk om via interrupts (bv met de stemknoppen) gedurende bv. een halfuur veel input door te sturen als je daarna 24 uur stil ligt, of zal de data dan toch gedropt worden?
 TODO
 
 
-##	Kan je data rechtstreeks uitlezen van moederbord naar computer? Bv. om na te gaan hoe vaak je interrupts genereert met een bepaalde instelling voor de thresholds?
+###	Kan je data rechtstreeks uitlezen van moederbord naar computer? Bv. om na te gaan hoe vaak je interrupts genereert met een bepaalde instelling voor de thresholds?
 Dit is momenteel niet mogelijk met de huidige firmware op het moederbord. We bekijken of het gewenst is om deze feature toe te voegen.
 
 ## Batterij
