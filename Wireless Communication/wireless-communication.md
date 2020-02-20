@@ -19,6 +19,31 @@ In case there is no coverage by the TTN, we will provide a LoRaWAN network.
 You can view the active gateways on the [TTN map](https://www.thethingsnetwork.org/map).
 Ensure there is a gateway present in at least a range of 1km of your devices.
 
+
+## Limitations
+Our system is limited by two regulations in the number of messages we can send.
+
+**TLD;DR**
+We are limited by how fast we can transmit messages consecutively as well as by the total number of messages per day. 
+
+Maximum number of messages per sensor in worst and best case:
+| Sensor               | Periodicity /hour | # Messages /24h |
+|----------------------|:-----------------:|:---------------:|
+| Sound Sensor         |     48.6 | 0.9    |    1165 | 22    |
+| Environmental Sensor |     40.5 | 0.8    |     972 | 20    |
+| Button Sensor        |     48.6 | 0.9    |    1165 | 22    |
+
+The best case is when the device is physically close to the gateway, which is the case if the gateway is in the same room as the nodes. 
+
+
+### Duty Cycle limitation
+We are transmitting in an license-exempt band meaning that everyone can transmit in this band if they follow the regulations. These regulation limit devices in transmitting continuously. The devices are duty cycled limited and can only transmit after being silent for a predefined time duration.
+For more information consult the [TTN documentation](https://www.thethingsnetwork.org/docs/lorawan/duty-cycle.html#maximum-duty-cycle).
+
+### Fair Access Policy
+On top of the duty cycle limitiation, the total air time (i.e., how long we transmit messages) is limited to 30 seconds per day to lower the laod on te gateways from the TTN. 
+
+
 ## LoRaWAN Gateway
 In case there is no coverage by the TTN, we will provide a LoRaWAN Gateway.
 
