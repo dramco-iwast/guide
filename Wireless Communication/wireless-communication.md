@@ -26,6 +26,7 @@ Our system is limited by two regulations in the number of messages we can send.
 We are limited by how fast we can transmit messages consecutively as well as by the total number of messages per day. 
 
 Maximum number of messages per sensor in worst and best case:
+
 | Sensor               | Periodicity /hour | # Messages /24h |
 |----------------------|:-----------------:|:---------------:|
 | Sound Sensor         |     48.6 | 0.9    |    1165 | 22    |
