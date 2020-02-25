@@ -29,9 +29,9 @@ Maximum number of messages per sensor in worst and best case:
 
 | Sensor               | Periodicity /hour | # Messages /24h |
 |----------------------|:-----------------:|:---------------:|
-| Sound Sensor         |     48.6 | 0.9    |    1165 | 22    |
-| Environmental Sensor |     40.5 | 0.8    |     972 | 20    |
-| Button Sensor        |     48.6 | 0.9    |    1165 | 22    |
+| Sound Sensor         |     48.6 / 0.9    |    1165 / 22    |
+| Environmental Sensor |     40.5 / 0.8    |     972 / 20    |
+| Button Sensor        |     48.6 / 0.9    |    1165 / 22    |
 
 The best case is when the device is physically close to the gateway, which is the case if the gateway is in the same room as the nodes. 
 In the worst case, when having a bad connection, we are limited to 20 messages over 24 hours and we are not allowed to transmit more frequently than one message per hour. After putting the nodes at their final location, you can ask us about the quality of the connection of the nodes to the gateway.
