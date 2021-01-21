@@ -50,6 +50,6 @@ The power module uses a Lithium Polymer battery than can be used to power the wh
 	* e.g., signaling when sun in shining - cloudy
 	* e.g., day - night tracking
 - Monitoring energy yield from the solar panel
-	* e.g., is the air in the school environment harmful for students who bike to school?
+	* e.g., how much energy gets added trough the solar panel?
 - Monitoring state of charge
 	* e.g., determining how much longer the system can measure
