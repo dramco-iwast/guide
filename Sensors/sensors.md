@@ -19,6 +19,7 @@ The latter can be used when you only want to know whether the measurement of int
 | Sound level sensor     | 3-10 (varies over schools) | Interrupt and polling |
 | Environmental sensor      | 0-3 (varies over schools)  |  Interrupt and polling |
 | Button sensor | 10      | Interrupt |
+| Power | 10 | Interrupt and polling |
 
 In the table below you can find the minimum and maximum values `TL` and `TH` can take, for each physical quantity and each sensor.
 
