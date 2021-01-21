@@ -19,6 +19,8 @@ The module is based around a battery which voltage is converted to a stable outp
 It includes a photovoltaic panel with an MPPT algorithm to efficiently extract microwatts to milliwatts of power from the solar panel and recharge the battery.
 When the battery eventually does run out, it can also be recharged via usb.
 
+This module includes an LDR (Light Dependent Resistor) which output is converted to an illuminance value.
+
 
 
 ## Illuminance
