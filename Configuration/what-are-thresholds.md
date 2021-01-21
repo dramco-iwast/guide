@@ -38,6 +38,8 @@ In the table below you can find the minimum and maximum values `TL` and `TH` can
 | Environmental sensor      |  Humidity (%) | 0  | 100	|
 | Environmental sensor      | Air quality (no unit)  | 0  |	600 |
 | Button sensor | - (no thresholding)  |  - (no thresholding) | - (no thresholding) |
+| Light sensor      | Illuminance (lux) | 0  |	65535 |
+| Power      | Battery voltage (V) | 0  |	4.20 |
 
 Pay attention! Due to the manner in which sound levels are calculated, the measured sound level is always at least 70 dB. 
 Therefore it does not make sense to try to measure 'quiet' sounds.
