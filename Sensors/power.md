@@ -17,9 +17,9 @@ The power / light sensor measures the following:
 The power module can be used to provide energy to the whole system. 
 The module is based around a battery which voltage is converted to a stable output voltage.
 It includes a photovoltaic panel with an MPPT algorithm to efficiently extract microwatts to milliwatts of power from the solar panel and recharge the battery.
-When the battery eventually does run out, it automatically disconnects the battery from the system. The battery can also be recharged via usb.
+When the battery eventually does run out, it automatically disconnects the battery from the system. The battery can also be recharged via usb. When plugged in via usb, a green and red light turn on. Charging is completed when the red light turns off and only the green light remains on.
 
-This module includes an LDR (Light Dependent Resistor) which output is converted to an illuminance value.
+This module includes an LDR (Light Dependent Resistor) which output is converted to an illuminance value. A measurement is indicated by a blue light.
 
 
 
@@ -41,7 +41,7 @@ Illuminance is a metric for how much the incident light illuminates a certain su
 
 ## Battery voltage
 
-The power module uses a Lithium Polymer battery than can be used to power the whole system. Due to the chemistry of battery, the voltage is not linearly correlated with the remaining capacity, but can give a good indication of the state of charge.
+The power module uses a Lithium Polymer battery than can be used to power the whole system. Due to the chemistry of battery, the voltage is not linearly correlated with the remaining capacity, but can give a good indication of the state of charge. A measurement is indicated by a blue light.
 
 
 
