@@ -6,7 +6,7 @@ nav_order: 3
 ---
 
 De configuratie-tool kan je downloaden via [https://github.com/dramco-iwast/qt-config/releases](https://github.com/dramco-iwast/qt-config/releases). 
-Wanneer je het `iwastconfiguratorSetup.exe` bestand opent, installeert de tool vanzelf op je computer.
+Wanneer je het `IWAST.Configurator.V2.1Setup.exe` bestand opent, installeert de tool vanzelf op je computer.
 
 Hieronder zie je een screenshot van de configuratie-tool. Voer de aangeduide stappen in volgorde uit ((a) tot (j)).
 
@@ -42,6 +42,8 @@ Merk op dat alle sensorgegevens worden doorgestuurd wanneer 1 drempelwaarde over
 Stel dat je een drempel ingesteld hebt voor de temperatuur (doorsturen als temperatuur > 25 &deg;C) en luchtdruk (doorsturen als druk > 1060 hPa).
 Als nu de drempelwaarde voor de temperatuur overschreden wordt, maar die voor druk niet, (of omgekeerd), dan worden toch alle gegevens (temperatuur, luchtdruk, luchtvochtigheid en algemene luchtkwaliteit) doorgestuurd.
 
+Het is aan te raden om gebruik te maken van data accumulatie (k). De data wordt hierbij gebufferd aan de zender en er wordt slechts een bericht uitgestuurd wanneer genoeg data verzameld is. Het systeem wordt hierdoor stabieler en verbruikt minder energie. Het kan hierdoor wel langer duren alvorens de eerste data toekomt in het online platform.
+
 Als je tevreden bent over de instellingen voor je sensor, sla je de configuratie op (h). 
 Je krijgt wat info te zien in het vakje onderaan (i), maar daar hoef je je normaal gezien niets van aan te trekken.
 Nu moet je alleen nog op de knop 'disconnect' onderaan drukken om alle instellingen permanent op te slaan (j).
@@ -49,4 +51,5 @@ Als je niet op 'disconnect' klikt, worden de instellingen NIET opgeslagen.
 Nu mag je de USB connectie met het moederbord loskoppelen.
 
 
+Door op `Power Report` (l) te klikken verkrijg je een gedetailleerd overzicht van het vermogenverbruik van de sensor. De huidige configuratie wordt weergegeven (m). Je kan het aantal verwachte events boven en onder de thresholds instellen (n) alsook de draadloze communicatie instellingen (o). Aan de hand van de aangesloten sensoren en deze instellingen wordt het gemiddeld vermogenverbruik (p) berekend alsook de geschatte autonomie (q). (r) en (t) geven een meer gedetailleerd overzicht van het verbruik. Deze energievoorspellingen kunnen ook geëxporteerd worden naar een PDF (s). Sluit tenslotte dit venster (u).
 
