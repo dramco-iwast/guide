@@ -2,7 +2,7 @@
 layout: default
 title: Internet der Dingen
 parent: SP 2 Randvoorwaarden IoT systeem
-has_children: false
+has_children: true
 nav_order: 1
 has_toc: true
 ---
