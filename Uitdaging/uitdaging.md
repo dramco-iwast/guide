@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Start: Uitdaging
+title: Start uitdaging
 nav_order: 2
 ---
 # Uitdaging
