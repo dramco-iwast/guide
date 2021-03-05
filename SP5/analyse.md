@@ -9,6 +9,7 @@ has_toc: true
 # Analyse meetresultaten
 
 Wat zeggen de meetgegevens over je probleemstelling?
-    * Welke analyses moet je toepassen op je meetgegevens om tot besluiten te kunnen komen?    
+    * Waar vind je de meetgegevens terug? 
+	* Welke analyses moet je toepassen op je meetgegevens om tot besluiten te kunnen komen?    
 	* Hoe kan je die analyses uitvoeren? In welk programma/welke programmeertaal?
 

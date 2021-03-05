@@ -2,7 +2,7 @@
 layout: default
 title: Data Manipulation in Python
 parent: SP 5 Analyse meetresultaten
-nav_order: 2
+nav_order: 3
 has_toc: true
 ---
 

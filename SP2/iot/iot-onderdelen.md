@@ -36,7 +36,7 @@ aannemen. Hier zullen echter beperkte berekeningen op uitgevoerd worden, door hu
 
 Het doel van deze hardware is voornamelijk het vertalen en verpakken van data uit het analoge domein naar het digitale domein die dan verder verwerkt kan worden in de cloud. 
 
-##(Draadloze) connectie
+## (Draadloze) connectie
 Apparaten moeten informatie uitwisselen en combineren om werkelijk tot ‘slimme’ IoT toepassingen te leiden. Het uitwisselen van deze data gebeurt over een netwerk naar ‘de cloud’ voor verder verwerking.
 Neem als voorbeeld terug de ‘slimme’ thermostaat die je huis opwarmt tegen de tijd waarop jij thuiskomt. Een thermostaat op zich is niet ‘slim’ genoeg om dit te verwezenlijken.
 Er kan echter gebruik gemaakt worden van andere sensoren zoals de GPS in de smartphone en/of smartwatch van de bewoner. Doordat deze sensoren met elkaar geconnecteerd zijn kan 

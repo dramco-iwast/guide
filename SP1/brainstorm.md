@@ -8,7 +8,7 @@ has_toc: true
 
 # Brainstorm
 
-\[Noot voor leerkrachten: we geven hier enkele handvaten, maar we raden je aan zelf na te denken hoe je binnen jouw leerlingengroep de brainstorm best vormgeeft.\]
+\[_Noot voor leerkrachten: we geven hier enkele handvaten, maar we raden je aan zelf na te denken hoe je binnen jouw leerlingengroep de brainstorm best vormgeeft._\]
 
 __Brainstorm: welke 'problemen' in je schoolomgeving zou je mogelijk in kaart kunnen brengen of oplossen met behulp van IoT?__
 
