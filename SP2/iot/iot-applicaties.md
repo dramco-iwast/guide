@@ -3,7 +3,7 @@ layout: default
 title: IoT applicaties
 parent: Internet der Dingen
 grand_parent: SP 2 Randvoorwaarden IoT systeem
-nav_order: 2
+nav_order: 1
 has_toc: true
 ---
 

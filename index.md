@@ -18,7 +18,9 @@ De naam “IoT with a soft touch” heeft een dubbele betekenis.
 Enerzijds slaat dit op het wegnemen van barrières voor leerlingen en personen met een niet hard-wetenschappelijke achtergrond. 
 Anderzijds wijst dit op de toepassingsdomeinen van IoT, die ook buiten de state-of-the-art technologische settings, bv. in de zorgsector, gezocht kunnen worden.
 
-Deze website bevat een inleiding over het internet der dingen en beschrijft het “IoT with a soft touch”-systeem zodat leerlingen met voldoende achtergrond het project kunnen aanvatten.
+Deze website bevat een inleiding over het internet der dingen en beschrijft het “IoT with a soft touch”-systeem zodat leerlingen met voldoende achtergrond het project kunnen aanvatten. 
+De website biedt ook een leidraad om het project met leerlingen te doorlopen. Vanwege de brede doelgroep en de diversiteit aan toepassingen, wordt er van de leerkracht verwacht het 
+project wat te kneden om het in de meest gunstige vorm voor zijn specifieke leerlingengroep vorm te geven.
 
 
 
