@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Brainstorm
+title: Subprobleem 1: Brainstorm
 has_children: false
 nav_order: 3
 has_toc: true

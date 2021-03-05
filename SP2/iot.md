@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Internet der Dingen
-parent: inhoud
+parent: Subprobleem 2: Randvoorwaarden IoT systeem
 has_children: false
 nav_order: 3
 ---

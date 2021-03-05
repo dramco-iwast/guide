@@ -2,7 +2,7 @@
 layout: default
 title: Power / Light sensor
 parent: Sensoren
-nav_order: 2
+nav_order: 4
 has_toc: true
 ---
 
