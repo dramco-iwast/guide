@@ -63,13 +63,13 @@ met / en zonder /: geen 'guide' in url
 
 * Subprobleem 4 (SP4): Onderzoeksopzet/protocol:
     * Op welke manier moet je de IoT sensoren instellen (met een moeilijker woord: configureren) om je probleemstelling te onderzoeken of op te lossen?
-    Over de configuratie van de sensoren vind je [hier](/SP4/) meer informatie terug.
+    Over de configuratie van de sensoren vind je [hier](./../SP4/onderzoeksopzet.md) meer informatie terug.
 
 * Subprobleem 5 (SP5): Analyse van de meetgegevens:
     * Wat zeggen de meetgegevens over je probleemstelling?
     * Welke analyses moet je toepassen op je meetgegevens om tot besluiten te kunnen komen?    
 	* Hoe kan je die analyses uitvoeren? In welk programma/welke programmeertaal?
-    Om je op weg te zetten met de analyses vind je [hier](/SP5/) meer informatie terug.
+    Om je op weg te zetten met de analyses vind je [hier](./../SP5/analyse.md) meer informatie terug.
 
 * Subprobleem 6: Synthese resultaten en reflectie:
     * Kan je een antwoord formuleren op je onderzoeksvragen?
