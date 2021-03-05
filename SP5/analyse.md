@@ -33,3 +33,11 @@ Enkel inlezen van de data is niet voldoende: je wilt er betekenisvolle besluiten
 	Denk aan: een t-test, een chi-kwadraattest, ...
 * Voor leerlingen die het verband tussen twee meetwaarden (bv. temperatuur en luchtvochtigheid) willen onderzoeken: 
 	Kan je een model opstellen dat je vertelt hoe variabele 1 varieert in functie van variabele 2? Bv. er is een lineair/kwadratisch/... verband tussen ... en ... . 
+	
+	
+Je zal zien dat hier verschillende STEM-disciplines besproken worden:
+* M: de weergave en verwerking van je meetgegevens zijn wiskundige manipulaties
+* S: maar die (verwerkte) meetgegevens krijgen pas betekenis binnen een wetenschappelijke context. Bv. het is pas als je weet hoe je bijvoorbeeld temperatuur moet interpreteren (wat is een hoge temperatuur? wat is een lage temperatuur? hoe snel kan de temperatuur variëren? ...) dat de resultaten zinvol zijn.
+* E: het nadenken over welke sensoren je gaat gebruiken, waar je die zal plaatsen, wat je er mee kan opmeten, wat de beperkingen zijn en hoe je a.d.h.v IoT een probleem kan oplossen zijn allemaal typische ingenieursvraagstukking
+
+Kunnen jullie concreter benoemen hoe de STEM-disciplines en welke concepten uit S, T en M in dit subprobleem aan bod komen?

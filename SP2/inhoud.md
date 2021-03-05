@@ -19,3 +19,12 @@ Na het doornemen van de beschikbare informatie zou je een antwoord moeten kunnen
     * wanneer (polling vs threshold)?
 	
 De oefening voor jullie is om uit deze informatie de randvoorwaarden waarmee je moet rekening houden op te lijsten.
+
+Je zal zien dat hier verschillende STEM-disciplines besproken worden:
+* S: Er zit fysica of chemie achter het werkingsprincipe van de sensoren.
+* S: De meetresultaten zijn signalen, die een fysische betekenis hebben: temperatuur, luchtdruk, geluid (is eigenlijk ook een drukgolf die zich door de lucht voortplant)...
+* T: Elektronica is technologie.
+* M: de meetresultaten worden gebundeld in tabellen of weergegeven in een grafiek.
+* E: het nadenken over welke sensoren je gaat gebruiken, waar je die zal plaatsen, wat je er mee kan opmeten, wat de beperkingen zijn en hoe je a.d.h.v IoT een probleem kan oplossen zijn allemaal typische ingenieursvraagstukking
+
+Kunnen jullie concreter benoemen hoe de STEM-disciplines en welke concepten uit S, T en M in dit subprobleem aan bod komen?

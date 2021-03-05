@@ -46,7 +46,12 @@ Wij stellen voor om achtereenvolgens volgende subproblemen te behandelen:
     * Wat kan je opmeten en wat niet? 
     * Met welke andere beperkingen moet je rekening houden?
 	
-    Hierover vind je [hier](/SP2/) meer informatie terug.
+    Hierover vind je [hier](SP2/) meer informatie terug.
+
+<!---
+https://hannedeprez1990.github.io/guide/SP2/inhoud.html
+-->
+
 
 * Subprobleem 3 (SP3): Selectie probleemstelling:
     * We leggen de vorige twee subproblemen samen: welke ideeën uit de brainstorm zijn haalbaar om binnen de beperkingen van het IoT systeem te onderzoeken?
