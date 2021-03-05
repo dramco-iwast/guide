@@ -46,10 +46,13 @@ Wij stellen voor om achtereenvolgens volgende subproblemen te behandelen:
     * Wat kan je opmeten en wat niet? 
     * Met welke andere beperkingen moet je rekening houden?
 	
-    Hierover vind je [hier](SP2/) meer informatie terug.
+    Hierover vind je [hier](./../SP2/) meer informatie terug.
 
 <!---
 https://hannedeprez1990.github.io/guide/SP2/inhoud.html
+
+met / en zonder /: geen 'guide' in url
+
 -->
 
 
