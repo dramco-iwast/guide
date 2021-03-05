@@ -20,7 +20,7 @@ Anderzijds wijst dit op de toepassingsdomeinen van IoT, die ook buiten de state-
 
 Deze website bevat een inleiding over het internet der dingen en beschrijft het “IoT with a soft touch”-systeem zodat leerlingen met voldoende achtergrond het project kunnen aanvatten. 
 De website biedt ook een leidraad om het project met leerlingen te doorlopen. Vanwege de brede doelgroep en de diversiteit aan toepassingen, wordt er van de leerkracht verwacht het 
-project wat te kneden om het in de meest gunstige vorm voor zijn specifieke leerlingengroep vorm te geven.
+projectmateriaal beschikbaar op deze website wat te kneden om het in de meest gunstige vorm aan zijn specifieke leerlingengroep aan te bieden.
 
 
 

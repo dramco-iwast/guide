@@ -19,19 +19,20 @@ Binnen dit project worden __geen actuatoren__ ter beschikking gesteld.
 
 Nu je een beetje besef hebt van wat het Internet der Dingen is (wat verderop nog uitgebreider uitgelegd wordt), en uit welke onderdelen het bestaat, formuleren we de volgende _uitdaging_:
 
-__Breng een maatschappelijk of ecologisch relevant probleem in je schoolomgeving in kaart te brengen of los het op a.d.h.v. IoT technologie.__
+__Breng een maatschappelijk of ecologisch relevant probleem in je schoolomgeving in kaart of los het op a.d.h.v. IoT technologie.__
 
 # Aanpak
+
+\[_Noot voor leerkrachten: we geven hier enkele handvaten, maar we raden je aan zelf na te denken hoe je jouw leerlingengroep best laat nadenken over welke stappen 
+binnen dit project zullen moeten worden doorlopen._\]
 
 Je zal dit project aanpakken in verschillende subproblemen. 
 
 Sta zelf even stil welke stappen je achtereenvolgens zal moeten doorlopen om dit project tot een goed einde te brengen.
 Je kan jezelf hiervoor de volgende vragen stellen:
-- Weet je al wat je concreet moet gaan doen? Wat heb je nodig om dit te beslissen?
+- Weet je al wat je concreet zal gaan doen? Wat heb je nodig om dit te beslissen of uit te voeren?
 - Welke informatie heb je al? Waarover zal je extra informatie nodig hebben?
 - Kan je al inschatten wat de mogelijkheden zijn en wat de beperkingen? Welke extra informatie heb je hiervoor nodig?
-
-\[_Noot voor leerkrachten: we geven hier enkele handvaten, maar we raden je aan zelf na te denken hoe je jouw leerlingengroep best laat nadenken over welke stappen binnen dit project zullen moeten worden doorlopen._\]
 
 # Overzicht project
 
@@ -44,28 +45,29 @@ Wij stellen voor om achtereenvolgens volgende subproblemen te behandelen:
     * Wat is IoT eigenlijk precies? 
     * Wat kan je opmeten en wat niet? 
     * Met welke andere beperkingen moet je rekening houden?
-    Hierover vind je hier meer informatie terug.
+	
+    Hierover vind je [hier](/SP2/) meer informatie terug.
 
 * Subprobleem 3 (SP3): Selectie probleemstelling:
-    * We leggen de vorige twee subproblemen samen: welke ideeën uit de brainstorm zijn haalbaar om binnen de beperkingen van IoT systeem te onderzoeken?
+    * We leggen de vorige twee subproblemen samen: welke ideeën uit de brainstorm zijn haalbaar om binnen de beperkingen van het IoT systeem te onderzoeken?
     * Wat moet je meten om je probleemstelling te kunnen oplossen?
     * Wat zijn je onderzoeksvragen?
 
 * Subprobleem 4 (SP4): Onderzoeksopzet/protocol:
     * Op welke manier moet je de IoT sensoren instellen (met een moeilijker woord: configureren) om je probleemstelling te onderzoeken of op te lossen?
-    Over de configuratie van de sensoren vind je hier meer informatie terug.
+    Over de configuratie van de sensoren vind je [hier](/SP4/) meer informatie terug.
 
 * Subprobleem 5 (SP5): Analyse van de meetgegevens:
     * Wat zeggen de meetgegevens over je probleemstelling?
     * Welke analyses moet je toepassen op je meetgegevens om tot besluiten te kunnen komen?    
 	* Hoe kan je die analyses uitvoeren? In welk programma/welke programmeertaal?
-    Om je op weg te zetten met de analyses vind je hier meer informatie terug.
+    Om je op weg te zetten met de analyses vind je [hier](/SP5/) meer informatie terug.
 
-* Subprobleem 6: Synthese resultaten + reflectie:
+* Subprobleem 6: Synthese resultaten en reflectie:
     * Kan je een antwoord formuleren op je onderzoeksvragen?
     * Kan je ook een oplossing voor je probleemstelling formuleren? Of heb je hier meer gegevens of materiaal voor nodig?
     * Heeft IoT je geholpen je probleem beter in kaart te brengen?
     * Wat waren sterktes en beperkingen van het IoT systeem?
     * Wat heb je bijgeleerd? Vond je het boeiend? 
 	
-Op deze website worden de subproblemen achtereenvolgens dieper uitgewerkt. 
+Verderop op deze website worden de subproblemen achtereenvolgens dieper uitgewerkt. 

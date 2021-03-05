@@ -15,9 +15,9 @@ Normaal gezien heb je nu bepaald waar je je sensoren zal plaatsen en wanneer ze 
 meetgegevens zal gaan doen.
 
 We formuleren een antwoord op volgende vragen:
-*Wat zeggen de meetgegevens over je probleemstelling?
+* Wat zeggen de meetgegevens over je probleemstelling?
     * Waar vind je de meetgegevens terug? 
-	* Welke analyses moet je toepassen op je meetgegevens om tot besluiten te kunnen komen?    
+    * Welke analyses moet je toepassen op je meetgegevens om tot besluiten te kunnen komen?    
 	* Hoe kan je die analyses uitvoeren? In welk programma/welke programmeertaal?
 
 Ten eerste, de meetgegevens vind je terug op het platform (TODO: link naar platform invoegen). 
