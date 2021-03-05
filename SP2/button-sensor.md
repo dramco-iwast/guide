@@ -2,6 +2,7 @@
 layout: default
 title: Button Sensor
 parent: Sensoren
+grand_parent: Subprobleem 2: Randvoorwaarden IoT systeem
 nav_order: 3
 has_toc: true
 ---
