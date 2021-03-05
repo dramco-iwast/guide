@@ -8,10 +8,10 @@ has_toc: true
 ---
 
 # Onderdelen van een IoT systeem
-IoT is een visie waarbij apparaten geconnecteerd worden. Daar zijn we uiteraard nog lang niet, maar vele mensen denken al na over de vereisten en de mogelijkheden van 
-dergelijke systemen. Op kleinere schaal worden nu al IoT systemen in gebruik genomen. 
+<!---IoT is een visie waarbij apparaten geconnecteerd worden. Daar zijn we uiteraard nog lang niet, maar vele mensen denken al na over de vereisten en de mogelijkheden van 
+dergelijke systemen. Op kleinere schaal worden nu al IoT systemen in gebruik genomen. -->
 
-Maar hoe ziet zo’n systeem er nu precies uit?
+We hadden het al over mogelijke applicaties, maar hoe ziet zo’n systeem er nu precies uit?
 
 Een IoT-systeem bestaat uit vier grote onderdelen: 
 1. sensoren die de omgeving scannen, 
@@ -31,13 +31,13 @@ Vaak gebruikte sensoren in IoT toepassingen zijn camera’s, microfoons, tempera
 ## Centrale verwerkingseenheid
 Het doel van de centrale verwerkingseenheid is het omzetten van de signalen uit de sensoren (analoog domein) naar data die verwerkt kan worden door computers (digitaal domein).
 Simpel gezegd bestaat een analoog signaal uit continue meetwaarden die onbeperkte waarden kunnen aannemen. 
-Een digitaal signaal bestaat uit discrete meetwaarden die op bepaalde tijdstippen gemeten worden en die slechts bepaalde waarden (bv. maar niet noodzakelijk gehele getallen) kunnen 
-aannemen. Hier zullen echter beperkte berekeningen op uitgevoerd worden, door hun gelimiteerd computationeel vermogen. 
+Een digitaal signaal bestaat uit discrete meetwaarden die op bepaalde tijdstippen gemeten worden en die slechts bepaalde waarden (bijvoorbeeld, maar niet noodzakelijk, enkel gehele getallen) kunnen 
+aannemen. Door de centrale verwerkingseenheid zullen slechts beperkte berekeningen uitgevoerd worden, door zijn gelimiteerde rekenkracht. 
 
 Het doel van deze hardware is voornamelijk het vertalen en verpakken van data uit het analoge domein naar het digitale domein die dan verder verwerkt kan worden in de cloud. 
 
 ## (Draadloze) connectie
-Apparaten moeten informatie uitwisselen en combineren om werkelijk tot ‘slimme’ IoT toepassingen te leiden. Het uitwisselen van deze data gebeurt over een netwerk naar ‘de cloud’ voor verder verwerking.
+Apparaten moeten informatie uitwisselen en combineren om werkelijk tot ‘slimme’ IoT toepassingen te leiden. Het uitwisselen van deze data gebeurt over een netwerk naar ‘de cloud’ voor verdere verwerking.
 Neem als voorbeeld terug de ‘slimme’ thermostaat die je huis opwarmt tegen de tijd waarop jij thuiskomt. Een thermostaat op zich is niet ‘slim’ genoeg om dit te verwezenlijken.
 Er kan echter gebruik gemaakt worden van andere sensoren zoals de GPS in de smartphone en/of smartwatch van de bewoner. Doordat deze sensoren met elkaar geconnecteerd zijn kan 
 de thermostaat op voorhand het huis verwarmen en komt de bewoner toe in een warm huis.

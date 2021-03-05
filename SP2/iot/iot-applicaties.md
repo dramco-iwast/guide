@@ -1,14 +1,19 @@
 ---
 layout: default
-title: IoT applicaties
+title: IoT toepassingen
 parent: Internet der Dingen
 grand_parent: SP 2 Randvoorwaarden IoT systeem
 nav_order: 1
 has_toc: true
 ---
 
-# IoT Applicaties
-Naast bestaande toepassingen, kan IoT nog op veel andere vlakken ingezet worden. We sommen enkele voorbeelden op:
+# IoT toepassingen
+Naast de reeds vermelde toepassingen, kan IoT natuurlijk nog op veel andere vlakken ingezet worden. 
+IoT technologie is vooral interessant:
+* wanneer _heel veel zaken_ moeten gemonitord/aangestuurd worden
+* wanneer zaken _vanop afstand_ moeten kunnen gemonitord/aangestuurd worden
+
+We sommen enkele voorbeelden van (toekomstgerichte) toepassingen op:
 
 ## (1)	‘Slimme gezondheidszorg’
 Op dit moment is onze gezondheidszorg reactief. Dat betekent dat een patiënt eerst ziek wordt, alvorens hij de dokter bezoekt, een diagnose krijgt en een behandeling 

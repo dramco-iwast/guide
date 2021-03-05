@@ -6,9 +6,13 @@ nav_order: 4
 has_toc: true
 ---
 
+# Randvoorwaarden van het IoT systeem
+
 In dit subprobleem gaan we de _randvoorwaarden_ verder afbakenen.
 Dit zijn zaken waarmee  je rekening moet houden, omdat ze de mogelijkheden van wat je kan onderzoeken of uitwerken beperken.
 Daarvoor moet je eerst wat meer leren over het Internet der Dingen en de beschikbare sensoren.
+
+## Welke vragen moeten we beantwoorden?
 
 Na het doornemen van de beschikbare informatie zou je een antwoord moeten kunnen formuleren op volgende vragen:
 - Wat is het Internet der Dingen? 
@@ -18,7 +22,11 @@ Na het doornemen van de beschikbare informatie zou je een antwoord moeten kunnen
     * waar (afstand tot gateway)? 
     * wanneer (polling vs threshold)?
 	
+## Oefening: randvoorwaarden
+	
 De oefening voor jullie is om uit deze informatie de randvoorwaarden waarmee je moet rekening houden op te lijsten.
+
+## STEM-disciplines
 
 Je zal zien dat hier verschillende STEM-disciplines besproken worden:
 * S: Er zit fysica of chemie achter het werkingsprincipe van de sensoren.
