@@ -17,7 +17,7 @@ De gegevens van de sensoren, aangesloten op elk moederbord, worden naar de gatew
 De gateway is verbonden met de server, waar de sensorgegevens opgeslaan worden. 
 De data is toegankelijk via een website, zowel via de computer, als via de smartphone. Meer informatie kan je [hier](./Platform) terugvinden.
 
-![](./assets/images/setup.svg)
+![](../../assets/images/setup.svg)
 
 Let op! In het huidige systeem is geen terugkoppeling voorzien. Het is mogelijk data van sensoren op te vragen en te analyseren, maar signalen uitsturen kan momenteel (nog) niet! De communicatie is dus eenzijdig: de sensormodules kunnen gegevens uitsturen, maar kunnen - op dit moment - nog geen gegevens ontvangen. (Dus bv. een deur openen of een lichtje doen branden als een drukknop ingedrukt wordt, is voorlopig niet mogelijk).
 
