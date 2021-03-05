@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Subprobleem 3 Selectie probleemstelling
+title: SP 3 Selectie probleemstelling
 has_children: false
 nav_order: 4
 has_toc: true
