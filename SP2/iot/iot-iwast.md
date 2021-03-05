@@ -36,7 +36,7 @@ Binnen dit project werd gekozen voor de communicatietechnologie LoRa (Long Range
 We lijsten hieronder de voor- en nadelen van LoRa-communicatie op:
 - <i class="fas fa-plus"></i> energiezuinig: de draadloze communicatie kost niet veel energie, waardoor de sensormodules lang op eenzelfde batterij kunnen functioneren zonder dat de batterij moet vervangen worden. Bij optimale condities zou een batterijduur langer dan jaar geen uitzondering mogen zijn.
 + <i class="fas fa-plus"></i> groot draadloos bereik: de sensoren kunnen tot op grote afstand gegevens naar de gateway doorsturen. In sommige gevallen tot wel 40 km ver! In praktische omstandigheden kan je berichten sturen tot wel enkele kilometers ver. 
-- <i class="fas fa-minus"></i> Beperkte hoeveelheid data die kan doorgestuurd worden binnen een vast tijdsinterval. Daardoor is het niet mogelijk geluid of video continu door te sturen. Afhankelijk van het aantal en type sensoren kunnen sensormodules ten snelste ongeveer om de 5 minuten de sensorwaarden doorsturen.
+- <i class="fas fa-minus"></i> Beperkte hoeveelheid data die kan doorgestuurd worden binnen een vast tijdsinterval. Daardoor is het niet mogelijk geluid of video continu door te sturen. Afhankelijk van het aantal en type sensoren kunnen sensormodules ten snelste ongeveer om de 5 minuten de sensorwaarden doorsturen. We raden wel aan minder frequent data door te sturen.
 
 
 

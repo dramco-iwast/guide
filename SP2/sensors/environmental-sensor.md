@@ -9,7 +9,7 @@ has_toc: true
 
 # Environmental Sensor
 
-![](../assets/images/environmental-sensor.jpg)
+![](./../../assets/images/environmental-sensor.jpg)
 
 The environmental sensor measures the following:
 - Temperature (&deg;C)
@@ -18,10 +18,9 @@ The environmental sensor measures the following:
 - Air Quality Index (no unit)
 
 ## Air Quality Index
-![](../assets/images/air-quality-index.png)
+![](./../../assets/images/air-quality-index.png)
 
-
-The environmental sensor contains a gas that can measure the amount of volatile organic compounds. Volatile organic compounds (VOCs) consist of a larga range of organic substances that are gaseous at room temperatures, for example alcohols and ketones.
+The environmental sensor contains a gas that can measure the amount of volatile organic compounds. Volatile organic compounds (VOCs) consist of a large range of organic substances that are gaseous at room temperatures, for example alcohols and ketones.
 The concentration of gasses is usually expressed in parts-per-million (ppm). When the concentration is 1 ppm, it means that 1 molucule of VOCs is present for every million of air molecules.
 
 Because the amount of VOCs in the air is directly related to local emissions, the VOC concentration is used as an indication of air quality. 

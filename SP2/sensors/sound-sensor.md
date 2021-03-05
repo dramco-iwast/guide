@@ -9,19 +9,20 @@ has_toc: true
 
 # Sound Sensor
 
-![](../assets/images/sound-sensor.jpg)
+![](./../../assets/images/sound-sensor.jpg)
 
 This sensor measures the sound level.
-You can measure it at fixed time intervals and/or transmit the value when
-the level falls below or rises above a threshold. More information regarding thresholds see [this](../Configuration/what-are-thresholds.html).
+You can measure it at fixed time intervals [polling]((./../../SP5/what-is-polling.html)) and/or transmit the value when
+the level falls below or rises above a [threshold](./../../SP5/what-are-thresholds.html).
 
-When in treshold mode, the MIC stays on in a low-power mode and wakes the system once a sound event is detected. The system calculates the dB value and transmits it to the motherboard.
+When in treshold mode, the microphone stays on in a low-power mode and wakes the system every time a sound event is detected. The system calculates the dB value and transmits it to the motherboard. Therefore thresholding is useful to detect when a preset sound level threshold has been exceeded.
 
-Pay attention! Due to the limited data streams it is not possible to stream sound. The sensor sends the sound level at regular intervals, or when a preset threshold value has been exceeded.
+__Pay attention!__ Due to the limited data rates it is not possible to stream sound. The sensor sends the sound level at regular intervals, or when a preset threshold value has been exceeded.
 
-Pay attention! Due to the manner in which sound levels are calculated, the measured sound level is always at least 70 dB. 
+__Pay attention!__ Due to the manner in which sound levels are calculated, the measured sound level is still about 50 dB. 
 Therefore it does not make sense to try to measure 'quiet' sounds.
-It is also not allowed to set thresholds lower than 75 dB, as this will lead to constant data transmission, which consume a lot of power and will drain the battery.
+It is also not allowed to set thresholds lower than 65 dB, as this will lead to constant data transmission, which consume a lot of power and will drain the battery. 
+It also makes sense to use rather 'high' thresholds, as thresholding is especially useful to detect when preset high noise levels have been exceeded.
 
 ## Applications:
 - Monitoring sound levels and/or noise polution
@@ -31,6 +32,8 @@ It is also not allowed to set thresholds lower than 75 dB, as this will lead to 
 	* e.g., is someone present in a classroom?
 
 ## Technical Information
+\[_Note to teachers: this may be too technical for your pupils_\]
+
 The sound sensor contains a number of components:
 
 ### Microphone
