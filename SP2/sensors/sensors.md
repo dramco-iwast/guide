@@ -10,10 +10,10 @@ has_toc: true
 # Sensoren
 
 ## Beschikbare sensoren
-- Vermogen/lichtsensor (power/light sensor)
 - Omgevingssensor (environmental sensor)
 - Geluidsniveausensor (sound level sensor)
 - Drukknopsensor (button sensor)
+- Vermogen/lichtsensor (power/light sensor)
 
 ## Reading Sensor Data
 There are two approaches to read sensor data.
