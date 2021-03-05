@@ -40,7 +40,8 @@ Wij stellen voor om achtereenvolgens volgende subproblemen te behandelen:
 
 * Subprobleem 5 (SP5): Analyse van de meetgegevens:
     * Wat zeggen de meetgegevens over je probleemstelling?
-    * Welke analyses moet je toepassen op je meetgegevens om tot besluiten te kunnen komen?    ** Hoe kan je die analyses uitvoeren? In welk programma/welke programmeertaal?
+    * Welke analyses moet je toepassen op je meetgegevens om tot besluiten te kunnen komen?    
+	* Hoe kan je die analyses uitvoeren? In welk programma/welke programmeertaal?
     Om je op weg te zetten met de analyses vind je hier meer informatie terug.
 
 * Subprobleem 6: Synthese resultaten + reflectie:
