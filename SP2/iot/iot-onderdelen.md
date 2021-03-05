@@ -19,7 +19,7 @@ Een IoT-systeem bestaat uit vier grote onderdelen:
 3. een connectie tussen de slimme apparaten en de cloud, en 
 4. de cloud zelf.
 
-![](./assets/images/illustratieIoTSysteem.png)
+![](../../assets/images/illustratieIoTSysteem.png)
 
 ## Sensoren
 Een sensor zou je kunnen definiëren als een apparaat(je) dat een stimulus ontvangt en omzet in een elektrisch signaal. 
