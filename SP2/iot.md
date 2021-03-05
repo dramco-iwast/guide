@@ -3,7 +3,8 @@ layout: default
 title: Internet der Dingen
 parent: Subprobleem 2: Randvoorwaarden IoT systeem
 has_children: false
-nav_order: 3
+nav_order: 1
+has_toc: true
 ---
 
 ## Internet der Dingen
