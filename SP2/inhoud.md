@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Subprobleem 2 Randvoorwaarden IoT systeem
+title: SP 2 Randvoorwaarden IoT systeem
 has_children: true
 nav_order: 3
 has_toc: true

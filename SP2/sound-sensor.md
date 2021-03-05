@@ -2,7 +2,7 @@
 layout: default
 title: Sound Sensor
 parent: Sensoren
-grand_parent: Subprobleem 2 Randvoorwaarden IoT systeem
+grand_parent: SP 2 Randvoorwaarden IoT systeem
 nav_order: 2
 has_toc: true
 ---
