@@ -8,6 +8,8 @@ has_toc: true
 
 # Onderzoeksopzet/protocol:
 
+\[_Noot aan leerkrachten: we geven hier enkele handvaten, maar we raden je aan zelf na te denken hoe je de uitwerking van het onderzoeksopzet best ondersteunt voor jouw leerlingengroep.\]
+
 We gaan op zoek naar een antwoord op de volgende vraag:
 * Op welke manier moet je de IoT sensoren instellen (met een moeilijker woord: configureren) om je probleemstelling te onderzoeken of op te lossen?
 
@@ -23,5 +25,6 @@ Ga achtereenvolgens na:
 * indien je meetgegevens periodiek zal doorsturen: om de hoeveel tijd meetgegevens doorgestuurd moeten worden
 De verzameling van keuzes die je hierboven maakt, noemen we het _onderzoeksopzet_ of _protocol_.
 
-Laat je leerkracht feedback geven op jouw onderzoeksopzet. Indien je leerkracht je onderzoeksopzet goedkeurt, kan je de sensoren gaan configureren. 
+Laat je leerkracht feedback geven op jouw onderzoeksopzet. Indien je leerkracht je onderzoeksopzet goedkeurt, kan je de sensoren gaan instellen. Dat wil zeggen dat je instelt 
+of de meetgegevens via drempelwaarden of periodiek doorgestuurd worden en met welke drempelwaarde of frequentie dit moet gebeuren. Dit proces noemen we de _configuratie_. 
 Meer info vind je hier (TODO: link naar uitleg configuratie toevoegen).
