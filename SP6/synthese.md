@@ -12,7 +12,7 @@ has_toc: true
 Een template van een verslag kan bijvoorbeeld een goede basis zijn om leerlingen hun besluiten te laten samenvatten en kritisch te laten stilstaan bij de waarde van hun bevindingen en 
 het verloop van het proces.
 Stuur dergelijke verslagen of andere eindproducten van leerlingen gerust door naar iwast@kuleuven.be, want wij zijn ook zeer geïnteresseerd in de leerlingenresultaten en 
-steeds op zoek naar feedback op ons IoT systeem. \]
+steeds op zoek naar feedback op ons IoT systeem._\]
 
 Nu het project bijna aan het einde gekomen is, is het tijd om je bevindingen samen te vatten. Die bevindingen zijn tweeledig: 
 1. welke resultaten heb je bekomen? (synthese)
