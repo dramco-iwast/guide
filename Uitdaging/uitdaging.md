@@ -17,7 +17,8 @@ Die actie kan automatisch plaatsvinden met behulp van _actuatoren_. Een actuator
 Maar de actie kan ook manueel uitgevoerd worden: als jij het signaal krijgt dat je plant toch wel dringend water moet krijgen, kan jij die gaan bewateren.
 Binnen dit project worden __geen actuatoren__ ter beschikking gesteld. 
 
-Nu je een beetje besef hebt van wat het Internet der Dingen is, en uit welke onderdelen het bestaat, formuleren we de volgende _uitdaging_:
+Nu je een beetje besef hebt van wat het Internet der Dingen is (wat verderop nog uitgebreider uitgelegd wordt), en uit welke onderdelen het bestaat, formuleren we de volgende _uitdaging_:
+
 __Breng een maatschappelijk of ecologisch relevant probleem in je schoolomgeving in kaart te brengen of los het op a.d.h.v. IoT technologie.__
 
 # Aanpak
@@ -30,7 +31,7 @@ Je kan jezelf hiervoor de volgende vragen stellen:
 - Welke informatie heb je al? Waarover zal je extra informatie nodig hebben?
 - Kan je al inschatten wat de mogelijkheden zijn en wat de beperkingen? Welke extra informatie heb je hiervoor nodig?
 
-\[Noot voor leerkrachten: we geven hier enkele handvaten, maar we raden je aan zelf na te denken hoe je jouw leerlingengroep best laat nadenken over welke stappen binnen dit project zullen moeten worden doorlopen.\]
+\[_Noot voor leerkrachten: we geven hier enkele handvaten, maar we raden je aan zelf na te denken hoe je jouw leerlingengroep best laat nadenken over welke stappen binnen dit project zullen moeten worden doorlopen._\]
 
 # Overzicht project
 
