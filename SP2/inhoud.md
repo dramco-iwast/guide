@@ -15,4 +15,4 @@ We gaan een antwoord formuleren op de volgende vragen:
 -- wat (welke sensoren)? 
 -- hoe (werkingsprincipe sensoren)?
 -- waar (afstand tot gateway)? 
--- wanneer (polling vs threshold)?"
+-- wanneer (polling vs threshold)?
