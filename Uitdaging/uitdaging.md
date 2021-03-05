@@ -7,10 +7,9 @@ nav_order: 2
 Het internet verbindt ons, mensen, met elkaar en laat ons toe met elkaar te communiceren, eenvoudig informatie te raadplegen, enz. Het Internet der Dingen is een uitbreiding op dit internet dat we allen kennen.
 In plaats van _mensen_, verbindt het Internet der Dingen verbindt _dingen_ met elkaar en met het internet. Het Internet der Dingen maakt domme dingen _smart_ door alledaagse dingen te verbinden met het internet. 
 Denk bijvoorbeeld aan een _slimme thermostaat_: de thermostaat in je living wordt verbonden met het internet en kan daardoor _slimme dingen_ doen, 
-bv. je huis verwarmen tegen de tijd waarop jij thuis komt. V
+bv. je huis verwarmen tegen de tijd waarop jij thuis komt. 
 
-aak is de eerste stap te zorgen dat je vanop afstand informatie over de _smart devices_ ter beschikking hebt, zodat je hierop kan inspelen. D
-enk bijvoorbeeld aan slimme planten die automatisch water krijgen terwijl je op reis bent: de eerste stap is registreren wanneer de planten water moeten krijgen. 
+Vaak is de eerste stap te zorgen dat je vanop afstand informatie over de _smart devices_ ter beschikking hebt, zodat je hierop kan inspelen. Denk bijvoorbeeld aan slimme planten die automatisch water krijgen terwijl je op reis bent: de eerste stap is registreren wanneer de planten water moeten krijgen. 
 Die informatie komt van _sensoren_. Binnen dit project stellen wij _sensoren_ tot jullie beschikking die aan het internet verbonden zijn en hun informatie doorsturen naar een website.
 
 Vaak volgt op het registreren van de informatie uit sensoren ook een actie: bv. de plant water geven. 
@@ -31,6 +30,8 @@ Je kan jezelf hiervoor de volgende vragen stellen:
 - Welke informatie heb je al? Waarover zal je extra informatie nodig hebben?
 - Kan je al inschatten wat de mogelijkheden zijn en wat de beperkingen? Welke extra informatie heb je hiervoor nodig?
 
+\[Noot voor leerkrachten: we geven hier enkele handvaten, maar we raden je aan zelf na te denken hoe je jouw leerlingengroep best laat nadenken over welke stappen binnen dit project zullen moeten worden doorlopen.\]
+
 # Overzicht project
 
 Wij stellen voor om achtereenvolgens volgende subproblemen te behandelen:
@@ -39,13 +40,13 @@ Wij stellen voor om achtereenvolgens volgende subproblemen te behandelen:
     * Welke 'problemen' in je schoolomgeving zou je mogelijks kunnen in kaart brengen en/of oplossen met behulp van de IoT technologie die wij ter beschikking stellen?
 
 * Subprobleem 2 (SP2): Randvoorwaarden IoT systeem: 
-    *Wat is IoT eigenlijk precies? 
-    *Wat kan je opmeten en wat niet? 
-    *Met welke andere beperkingen moet je rekening houden?
+    * Wat is IoT eigenlijk precies? 
+    * Wat kan je opmeten en wat niet? 
+    * Met welke andere beperkingen moet je rekening houden?
     Hierover vind je hier meer informatie terug.
 
 * Subprobleem 3 (SP3): Selectie probleemstelling:
-    *We leggen de vorige twee subproblemen samen: welke ideeën uit de brainstorm zijn haalbaar om binnen de beperkingen van IoT systeem te onderzoeken?
+    * We leggen de vorige twee subproblemen samen: welke ideeën uit de brainstorm zijn haalbaar om binnen de beperkingen van IoT systeem te onderzoeken?
     * Wat moet je meten om je probleemstelling te kunnen oplossen?
     * Wat zijn je onderzoeksvragen?
 
@@ -65,3 +66,5 @@ Wij stellen voor om achtereenvolgens volgende subproblemen te behandelen:
     * Heeft IoT je geholpen je probleem beter in kaart te brengen?
     * Wat waren sterktes en beperkingen van het IoT systeem?
     * Wat heb je bijgeleerd? Vond je het boeiend? 
+	
+Op deze website worden de subproblemen achtereenvolgens dieper uitgewerkt. 
