@@ -4,7 +4,22 @@ title: Start uitdaging
 nav_order: 2
 ---
 # Uitdaging
-We dagen je uit om een maatschappelijk of ecologisch relevant probleem in je schoolomgeving in kaart te brengen en eventueel op te lossen a.d.h.v. IoT technologie
+Het internet verbindt ons, mensen, met elkaar en laat ons toe met elkaar te communiceren, eenvoudig informatie te raadplegen, enz. Het Internet der Dingen is een uitbreiding op dit internet dat we allen kennen.
+In plaats van _mensen_, verbindt het Internet der Dingen verbindt _dingen_ met elkaar en met het internet. Het Internet der Dingen maakt domme dingen _smart_ door alledaagse dingen te verbinden met het internet. 
+Denk bijvoorbeeld aan een _slimme thermostaat_: de thermostaat in je living wordt verbonden met het internet en kan daardoor _slimme dingen_ doen, 
+bv. je huis verwarmen tegen de tijd waarop jij thuis komt. V
+
+aak is de eerste stap te zorgen dat je vanop afstand informatie over de _smart devices_ ter beschikking hebt, zodat je hierop kan inspelen. D
+enk bijvoorbeeld aan slimme planten die automatisch water krijgen terwijl je op reis bent: de eerste stap is registreren wanneer de planten water moeten krijgen. 
+Die informatie komt van _sensoren_. Binnen dit project stellen wij _sensoren_ tot jullie beschikking die aan het internet verbonden zijn en hun informatie doorsturen naar een website.
+
+Vaak volgt op het registreren van de informatie uit sensoren ook een actie: bv. de plant water geven. 
+Die actie kan automatisch plaatsvinden met behulp van _actuatoren_. Een actuator kan bijvoorbeeld aan een soort watersproeier zijn die automatisch je planten bewatert. 
+Maar de actie kan ook manueel uitgevoerd worden: als jij het signaal krijgt dat je plant toch wel dringend water moet krijgen, kan jij die gaan bewateren.
+Binnen dit project worden __geen actuatoren__ ter beschikking gesteld. 
+
+Nu je een beetje besef hebt van wat het Internet der Dingen is, en uit welke onderdelen het bestaat, formuleren we de volgende _uitdaging_:
+__Breng een maatschappelijk of ecologisch relevant probleem in je schoolomgeving in kaart te brengen of los het op a.d.h.v. IoT technologie.__
 
 # Aanpak
 

@@ -10,7 +10,8 @@ has_toc: true
 
 \[Noot voor leerkrachten: we geven hier enkele handvaten, maar we raden je aan zelf na te denken hoe je binnen jouw leerlingengroep de brainstorm best vormgeeft.\]
 
-Brainstorm: welke 'problemen' zou je mogelijk in kaart kunnen brengen? 
+__Brainstorm__: welke 'problemen' in je schoolomgeving zou je mogelijk in kaart kunnen brengen of oplossen met behulp van IoT? 
+
 Als je moeite hebt om iets te bedenken, sta dan even stil bij volgende zaken:
 - Zijn er bepaalde zaken binnen je school die jou of anderen vaak storen? Kan je via IoT dit probleem beter in kaart brengen?
     -Bv. veel leerlingen vinden de klaslokalen te koud, maar de directie doet er niets aan. Misschien kan je hen wel overtuigen o.b.v objectieve meetgegevens door gedurende lange tijd de temperatuur in de klaslokalen te monitoren.
@@ -21,7 +22,7 @@ Als je moeite hebt om iets te bedenken, sta dan even stil bij volgende zaken:
 	
 Je hoeft je zeker niet te beperken tot de voorbeelden die hier opgesomd worden. Laat je creativiteit de vrije loop.	
 
-We lijsten later de randvoorwaarden nauwkeurig op, maar hou nu er nu alvast rekening mee dat de IoT sensoren volgende zaken kunnen opmeten:
+We lijsten later de _randvoorwaarden_ nauwkeurig op, maar hou nu er nu alvast rekening mee dat de IoT sensoren volgende zaken kunnen opmeten:
 - geluid
 - temperatuur
 - luchtdruk
