@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Button Sensor
-parent: Sensors
+parent: Sensoren
 nav_order: 3
 has_toc: true
 ---

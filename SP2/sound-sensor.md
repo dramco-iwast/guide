@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sound Sensor
-parent: Sensors
+parent: Sensoren
 nav_order: 2
 has_toc: true
 ---

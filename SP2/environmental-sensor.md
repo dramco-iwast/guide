@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Environmental Sensor
-parent: Sensors
+parent: Sensoren
 nav_order: 1
 has_toc: true
 ---
