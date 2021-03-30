@@ -20,10 +20,10 @@ We formuleren een antwoord op volgende vragen:
     * Welke analyses moet je toepassen op je meetgegevens om tot besluiten te kunnen komen?    
 	* Hoe kan je die analyses uitvoeren? In welk programma/welke programmeertaal?
 
-Ten eerste, de meetgegevens vind je terug op het platform (TODO: link naar platform invoegen). 
+Ten eerste, de meetgegevens vind je terug op het [platform](./Platform/platform.md). 
 
 Op dit platform kan je al een eerste blik op de data werpen en kan je de meetgegevens downloaden om ze van nabijer te analyseren. Je kan zelf bepalen in welk programma je de analyse
-wilt uitvoeren. Hier (TODO: linken invoegen) vind je alvast de info terug hoe je de data kan inlezen in MS Excel en Python.
+wilt uitvoeren. Hier vind je alvast de info terug hoe je de data kan inlezen in [MS Excel](./Excel/opening-data-in-excel.md) en [Python](./Python/python.md).
 
 Enkel inlezen van de data is niet voldoende: je wilt er betekenisvolle besluiten uit trekken. Denk daarom even na over volgende vragen:
 * Welke grafieken kunnen je helpen om een antwoord op je onderzoeksvragen te formuleren? 
@@ -36,8 +36,8 @@ Enkel inlezen van de data is niet voldoende: je wilt er betekenisvolle besluiten
 	
 	
 Je zal zien dat hier verschillende STEM-disciplines besproken worden:
-* M: de weergave en verwerking van je meetgegevens zijn wiskundige manipulaties
-* S: maar die (verwerkte) meetgegevens krijgen pas betekenis binnen een wetenschappelijke context. Bv. het is pas als je weet hoe je bijvoorbeeld temperatuur moet interpreteren (wat is een hoge temperatuur? wat is een lage temperatuur? hoe snel kan de temperatuur variëren? ...) dat de resultaten zinvol zijn.
-* E: het nadenken over welke sensoren je gaat gebruiken, waar je die zal plaatsen, wat je er mee kan opmeten, wat de beperkingen zijn en hoe je a.d.h.v IoT een probleem kan oplossen zijn allemaal typische ingenieursvraagstukking
+* M (mathematics): de weergave en verwerking van je meetgegevens zijn wiskundige manipulaties
+* S (science): maar die (verwerkte) meetgegevens krijgen pas betekenis binnen een wetenschappelijke context. Bv. het is pas als je weet hoe je bijvoorbeeld temperatuur moet interpreteren (wat is een hoge temperatuur? wat is een lage temperatuur? hoe snel kan de temperatuur variëren? ...) dat de resultaten zinvol zijn.
+* E (engineering): het nadenken over welke sensoren je gaat gebruiken, waar je die zal plaatsen, wat je er mee kan opmeten, wat de beperkingen zijn en hoe je a.d.h.v IoT een probleem kan oplossen zijn allemaal typische ingenieursvraagstukking
 
 Kunnen jullie concreter benoemen hoe de STEM-disciplines en welke concepten uit S, T en M in dit subprobleem aan bod komen?
