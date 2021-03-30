@@ -28,4 +28,4 @@ De verzameling van keuzes die je hierboven maakt, noemen we het _onderzoeksopzet
 
 Laat je leerkracht feedback geven op jouw onderzoeksopzet. Indien je leerkracht je onderzoeksopzet goedkeurt, kan je de sensoren gaan instellen. Dat wil zeggen dat je instelt 
 of de meetgegevens via drempelwaarden of periodiek doorgestuurd worden en met welke drempelwaarde of frequentie dit moet gebeuren. Dit proces noemen we de _configuratie_. 
-Meer info vind je [hier](./configuration-tool.md).
+Meer info vind je [hier](./configuration.md).
