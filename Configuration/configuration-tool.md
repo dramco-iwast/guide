@@ -22,6 +22,9 @@ Druk op de grote ronde 'reset' knop op het moederbord.
 De aangesloten USB apparaten zie je rechtsboven (a). -->
 
 
+![](../assets/images/setup-config.gif)
+
+
 Vernieuw indien nodig het lijstje van USB apparaten door op 'refresh' te drukken (b).
 Als je net het moederbord hebt aangesloten, zie je in het lijstje van USB apparaten nu wellicht een nieuwe COM-poort verschijnen. 
 Dit is het nummer van de USB-poort waarop je je moederbord hebt aangesloten.
